@@ -1,73 +1,132 @@
-# React + TypeScript + Vite
+# HOU Cùng Việt Nam — Rebuild (React + Tailwind + Framer Motion)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dự án này là bản **đập đi xây lại** website tham chiếu:
 
-Currently, two official plugins are available:
+- Nguồn: <https://vn-hou-hung.lovable.app>
+- Stack: React 19, Vite 8, TypeScript, Tailwind CSS v4, Framer Motion
+- Mục tiêu: tái tạo layout + nội dung và nâng cấp giao diện theo style premium (glassmorphism, shadow, typography, scroll animation mượt)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Những gì đã hoàn thành
 
-## React Compiler
+### 1) Liệt kê toàn bộ link/URL trong trang
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Đã trích xuất và lưu đầy đủ tại:
 
-## Expanding the ESLint configuration
+- `research/analysis/all-links.txt`
+- `research/analysis/page-analysis.json` (`links`)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Tổng link phát hiện: **21** (các link tuyển sinh HOU).
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 2) Chụp fullpage + bóc tách DOM/layout/font/màu
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Đã tạo:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Screenshot fullpage trang gốc: `research/source/fullpage.png`
+- Phân tích tổng hợp: `research/analysis/page-analysis.json`
+- Cây DOM tóm tắt: `research/analysis/dom-tree.json`
+- Dữ liệu nội dung section/card/headings: `research/analysis/extracted-content.json`
+
+Các thông tin gồm:
+
+- Section structure, className, heading, childCount
+- Font family thực tế
+- Màu sắc và CSS variables
+- Nút điều hướng, heading, card content
+
+### 3) Tự động tải assets + dựng cấu trúc thư mục chuẩn
+
+Đã tải assets từ trang nguồn vào:
+
+- `src/assets/original/`
+
+Manifest chi tiết:
+
+- `research/analysis/asset-manifest.json`
+
+Thống kê tải ảnh:
+
+- Total: **71**
+- Success: **71**
+- Error: **0**
+
+### 4) Rebuild toàn bộ bằng React + Tailwind CSS
+
+Đã code lại toàn bộ trang với cấu trúc section rõ ràng trong:
+
+- `src/App.tsx`
+- `src/data/content.ts` (data-driven content)
+- `src/index.css` (theme, typography, glassmorphism, gradients)
+
+Có đầy đủ:
+
+- Hero + sticky nav
+- Timeline lịch sử tương tác
+- Grid vẻ đẹp Việt Nam (lọc vùng + load more)
+- Làng nghề, Ẩm thực
+- Triết lý “Mở”, khối HOU highlights + form tư vấn
+
+### 5) Bắt buộc UI/UX Promax (Framer Motion + glass + premium)
+
+Đã triển khai:
+
+- Framer Motion scroll reveal cho toàn bộ section/cards
+- Glassmorphism cho nav và card (`.glass-panel`)
+- Typography nâng cấp (`Inter` + `Playfair Display`)
+- Shadow system + gradient title + spacing sạch theo chuẩn hiện đại
+
+## Cấu trúc thư mục chính
+
+```text
+project/
+├─ research/
+│  ├─ analysis/
+│  │  ├─ all-links.txt
+│  │  ├─ asset-manifest.json
+│  │  ├─ dom-tree.json
+│  │  ├─ extracted-content.json
+│  │  └─ page-analysis.json
+│  └─ source/
+│     ├─ fullpage.png
+│     ├─ index.html
+│     ├─ index-BXUDRaiQ.js
+│     └─ index-B_U1ZKmA.css
+├─ src/
+│  ├─ assets/
+│  │  └─ original/              # ảnh tải từ source
+│  ├─ components/ui/
+│  │  ├─ button.tsx
+│  │  └─ button-variants.ts
+│  ├─ data/
+│  │  └─ content.ts
+│  ├─ lib/
+│  │  ├─ animations.ts
+│  │  └─ utils.ts
+│  ├─ App.tsx
+│  └─ index.css
+└─ README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Chạy local
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
 ```
+
+Build production:
+
+```bash
+npm run build
+```
+
+Lint:
+
+```bash
+npm run lint
+```
+
+## Ghi chú
+
+- Dự án giữ nội dung và đường link theo bản gốc để tiện đối chiếu.
+- Một số ảnh ngoài domain gốc vẫn được giữ URL trực tiếp trong data để bảo toàn nội dung chuẩn nguồn.
+- `src/assets/original/` đã chứa bản tải local nếu cần chuyển toàn bộ sang self-host.
