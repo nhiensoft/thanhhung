@@ -1,0 +1,321 @@
+WEB UNDERSTANDING MAP — HOU 💖 Việt Nam
+Version: 2026-03-26
+Workspace repo root: /home/node/.openclaw/workspace/project
+
+============================================================
+1) TỔNG QUAN EM HIỂU VỀ WEBSITE
+============================================================
+
+Đây là website giới thiệu theo phong cách storytelling về:
+- Việt Nam: lịch sử, di sản, làng nghề, ẩm thực.
+- Chuyển mạch sang Đại học Mở Hà Nội (HOU): triết lý “5 Mở”, ngành đào tạo, form đăng ký tư vấn.
+
+Website có 2 luồng trải nghiệm:
+- Desktop/tablet lớn: dùng bộ component chuẩn ở src/components/* + src/components/sections/*.
+- Mobile: có nhiều section mobile riêng ở src/components/mobile/* (header, hero, history, HOU).
+
+Điểm nổi bật kỹ thuật hiện tại:
+- React + Vite + TypeScript + Tailwind + shadcn/ui.
+- Landing page dạng one-page, dùng anchor menu để cuộn tới section.
+- Có preloader, chatbot nổi (gọi Gemini trực tiếp từ client), nút đăng ký tư vấn nổi.
+- Dữ liệu nội dung chính nằm trong code TS (không CMS), tập trung ở:
+  - src/data/vietnamHeritage.ts
+  - src/data/houPrograms.ts
+  - Một số section hard-code trực tiếp trong component.
+
+============================================================
+2) LUỒNG RENDER CHÍNH (ENTRY → PAGE)
+============================================================
+
+[Entry]
+- /home/node/.openclaw/workspace/project/src/main.tsx
+  - Mount React app vào #root.
+  - Bọc bởi BrowserRouter và QueryClientProvider.
+
+[Router]
+- /home/node/.openclaw/workspace/project/src/App.tsx
+  - Route chính:
+    - "/" => pages/Index
+    - "*" => pages/NotFound
+
+[Page chính]
+- /home/node/.openclaw/workspace/project/src/pages/Index.tsx
+  - Điều khiển toàn bộ flow hiển thị:
+    - Preloader 2s trước khi show nội dung.
+    - Detect mobile bằng hook useIsMobile().
+    - Điều phối menu, hero, các section, chatbot, nút tư vấn nổi.
+  - Thứ tự section (desktop):
+    1. Header
+    2. Navigation
+    3. HeroSection
+    4. HistorySection
+    5. HeritageSection
+    6. VillagesSection
+    7. CuisineSection
+    8. EducationTransitionSection
+    9. HOUSection
+    10. Footer
+  - Thứ tự section (mobile):
+    1. MobileHeader
+    2. Navigation
+    3. MobileHeroSection
+    4. MobileHistorySection
+    5. HeritageSection (reuse desktop heritage menu)
+    6. VillagesSection
+    7. CuisineSection
+    8. EducationTransitionSection
+    9. MobileHOUSection
+    10. Footer
+
+============================================================
+3) BẢN ĐỒ COMPONENT THEO CHỨC NĂNG + FILE PATH
+============================================================
+
+3.1. Khung đầu trang / menu
+
+- Header desktop:
+  /home/node/.openclaw/workspace/project/src/components/Header.tsx
+  - Hero header nền ảnh + title website + nhận diện HOU.
+
+- Header mobile:
+  /home/node/.openclaw/workspace/project/src/components/mobile/MobileHeader.tsx
+
+- Navigation (menu anchor + scroll smooth):
+  /home/node/.openclaw/workspace/project/src/components/Navigation.tsx
+  - Có logic click item để scroll tới section id tương ứng.
+
+- SearchBar (đang là component riêng):
+  /home/node/.openclaw/workspace/project/src/components/SearchBar.tsx
+
+
+3.2. Intro/hero
+
+- Hero desktop:
+  /home/node/.openclaw/workspace/project/src/components/HeroSection.tsx
+
+- Hero mobile:
+  /home/node/.openclaw/workspace/project/src/components/mobile/MobileHeroSection.tsx
+
+
+3.3. Lịch sử Việt Nam
+
+- Desktop timeline:
+  /home/node/.openclaw/workspace/project/src/components/sections/HistorySection.tsx
+  - Dữ liệu timeline hard-code ngay trong file (array vietnamHistory).
+  - Animation vào viewport bằng IntersectionObserver thủ công.
+
+- Mobile timeline:
+  /home/node/.openclaw/workspace/project/src/components/mobile/MobileHistorySection.tsx
+  - Card dạng expand/collapse từng mốc.
+
+
+3.4. Di sản / danh thắng Việt Nam
+
+- Wrapper section:
+  /home/node/.openclaw/workspace/project/src/components/sections/HeritageSection.tsx
+  - Trả về InfiniteHeritageMenu.
+
+- Heritage menu chính:
+  /home/node/.openclaw/workspace/project/src/components/heritage/InfiniteHeritageMenu.tsx
+  - Tính năng:
+    - Search theo tên/mô tả/tỉnh.
+    - Filter vùng miền (Bắc/Trung/Nam/Toàn quốc).
+    - Filter category.
+    - Load more.
+    - Mobile có dropdown vùng.
+
+- Card di sản:
+  /home/node/.openclaw/workspace/project/src/components/heritage/HeritageFloatingCard.tsx
+
+- Dữ liệu di sản:
+  /home/node/.openclaw/workspace/project/src/data/vietnamHeritage.ts
+  - Dataset lớn gồm di sản UNESCO + điểm đến nổi bật toàn quốc.
+
+
+3.5. Làng nghề truyền thống
+
+- Section làng nghề:
+  /home/node/.openclaw/workspace/project/src/components/sections/VillagesSection.tsx
+  - Dữ liệu làng nghề hard-code ngay trong file.
+  - Có map ảnh theo tên làng nghề (public/lovable-uploads/*).
+  - Có nút “Hiển thị thêm”, phụ thuộc mobile/desktop.
+
+
+3.6. Ẩm thực Việt Nam
+
+- Section ẩm thực:
+  /home/node/.openclaw/workspace/project/src/components/sections/CuisineSection.tsx
+  - Dữ liệu món ăn hard-code ngay trong file.
+  - Nhiều ảnh map bằng tên món trong code.
+  - Có “Hiển thị thêm”, phụ thuộc mobile/desktop.
+
+
+3.7. Cầu nối sang HOU
+
+- Section chuyển tiếp:
+  /home/node/.openclaw/workspace/project/src/components/sections/EducationTransitionSection.tsx
+  - Nội dung “Tổ Quốc Trong Tim – Khát Vọng Nắm Trong Tay”.
+  - Triết lý 5 Mở dạng card visual mạnh.
+
+
+3.8. Khối HOU chính (desktop)
+
+- HOUSection:
+  /home/node/.openclaw/workspace/project/src/components/sections/HOUSection.tsx
+  - Các khối chính:
+    1) Intro HOU
+    2) Value cards
+    3) CTA
+    4) Carousel ngành đào tạo
+    5) Form đăng ký tư vấn
+    6) Contact info
+  - Carousel dùng embla-carousel + autoplay plugin.
+  - Form hiện tại submit bằng alert local (chưa gọi backend).
+
+- Dữ liệu ngành HOU:
+  /home/node/.openclaw/workspace/project/src/data/houPrograms.ts
+  - 21 ngành, mô tả sâu + job opportunities + thành tích.
+
+
+3.9. Khối HOU mobile
+
+- Mobile wrapper:
+  /home/node/.openclaw/workspace/project/src/components/mobile/MobileHOUSection.tsx
+
+- Carousel mobile:
+  /home/node/.openclaw/workspace/project/src/components/mobile/MobileHOUCarousel.tsx
+
+- Form tư vấn mobile:
+  /home/node/.openclaw/workspace/project/src/components/mobile/MobileConsultationForm.tsx
+
+
+3.10. Thành phần nổi toàn trang
+
+- Preloader:
+  /home/node/.openclaw/workspace/project/src/components/Preloader.tsx
+  - Progress animation 2s, text thay theo tiến độ.
+
+- Floating consult button:
+  /home/node/.openclaw/workspace/project/src/components/FloatingConsultButton.tsx
+  - Nút nổi bên trái để mở form tư vấn.
+
+- ChatBot:
+  /home/node/.openclaw/workspace/project/src/components/ChatBot.tsx
+  - Load nội dung website từ file txt:
+    /home/node/.openclaw/workspace/project/public/noi-dung-website.txt
+  - Gọi Gemini API trực tiếp từ frontend với nhiều API keys fallback.
+  - Render markdown inline bằng marked + DOMPurify.
+
+============================================================
+4) STYLE / DESIGN SYSTEM / ASSET MAP
+============================================================
+
+4.1. CSS gốc
+- /home/node/.openclaw/workspace/project/src/index.css
+  - Tailwind directives + design tokens CSS variables (HSL).
+  - Custom colors chủ đề (vietnam-red, mountain-blue, sunrise...)
+  - Keyframes/animations:
+    - fade-in, slide-up, gentle-pulse, gentle-shake, drift, shimmer, scroll-left...
+  - Utility class custom: glass-panel, shadow-heritage, text-glow-yellow,...
+
+4.2. Tailwind config
+- /home/node/.openclaw/workspace/project/tailwind.config.ts
+  - Extend màu, font, animation, shadow, gradient.
+
+4.3. Ảnh/asset
+- /home/node/.openclaw/workspace/project/public/lovable-uploads/*
+  - Nguồn ảnh chính cho hero/section/card.
+
+- /home/node/.openclaw/workspace/project/public/noi-dung-website.txt
+  - Nguồn tri thức tĩnh để chatbot tham chiếu.
+
+============================================================
+5) HOOK / UTIL / HẠ TẦNG PHỤ
+============================================================
+
+- Mobile detect:
+  /home/node/.openclaw/workspace/project/src/hooks/use-mobile.tsx
+
+- Intersection helper:
+  /home/node/.openclaw/workspace/project/src/hooks/useIntersectionObserver.ts
+
+- Toast hook:
+  /home/node/.openclaw/workspace/project/src/hooks/use-toast.ts
+
+- Utility class merge:
+  /home/node/.openclaw/workspace/project/src/lib/utils.ts
+
+- UI primitives (shadcn):
+  /home/node/.openclaw/workspace/project/src/components/ui/*
+
+============================================================
+6) ĐIỂM DỄ CHỈNH SỬA NHANH THEO MỤC TIÊU
+============================================================
+
+A. Đổi menu/section điều hướng:
+- /home/node/.openclaw/workspace/project/src/components/Navigation.tsx
+- /home/node/.openclaw/workspace/project/src/pages/Index.tsx
+
+B. Đổi nội dung hero/headline:
+- /home/node/.openclaw/workspace/project/src/components/HeroSection.tsx
+- /home/node/.openclaw/workspace/project/src/components/mobile/MobileHeroSection.tsx
+- /home/node/.openclaw/workspace/project/src/components/Header.tsx
+- /home/node/.openclaw/workspace/project/src/components/mobile/MobileHeader.tsx
+
+C. Chỉnh dữ liệu di sản:
+- /home/node/.openclaw/workspace/project/src/data/vietnamHeritage.ts
+
+D. Chỉnh dữ liệu ngành HOU:
+- /home/node/.openclaw/workspace/project/src/data/houPrograms.ts
+
+E. Chỉnh làng nghề / ẩm thực (đang hard-code trong section):
+- /home/node/.openclaw/workspace/project/src/components/sections/VillagesSection.tsx
+- /home/node/.openclaw/workspace/project/src/components/sections/CuisineSection.tsx
+
+F. Chỉnh chatbot:
+- /home/node/.openclaw/workspace/project/src/components/ChatBot.tsx
+- /home/node/.openclaw/workspace/project/public/noi-dung-website.txt
+
+G. Chỉnh form đăng ký tư vấn:
+- /home/node/.openclaw/workspace/project/src/components/sections/HOUSection.tsx
+- /home/node/.openclaw/workspace/project/src/components/mobile/MobileConsultationForm.tsx
+
+H. Chỉnh tone màu / hiệu ứng / typography toàn site:
+- /home/node/.openclaw/workspace/project/src/index.css
+- /home/node/.openclaw/workspace/project/tailwind.config.ts
+
+============================================================
+7) GHI CHÚ KỸ THUẬT & RỦI RO HIỆN TẠI
+============================================================
+
+1) ChatBot đang để API key Gemini trực tiếp trong frontend:
+- /home/node/.openclaw/workspace/project/src/components/ChatBot.tsx
+=> Rủi ro lộ key cao. Nên chuyển sang backend/proxy API càng sớm càng tốt.
+
+2) Nhiều nội dung lớn đang hard-code trong component:
+- HistorySection / VillagesSection / CuisineSection
+=> Chỉnh sửa nội dung sẽ tốn công nếu không tách riêng data file.
+
+3) Form tư vấn hiện tại chỉ alert thành công local:
+- Chưa đẩy dữ liệu về CRM/Google Sheet/backend.
+
+4) Có thể có trùng lặp logic desktop/mobile (HOUSection vs MobileHOUSection):
+=> Khi sửa business logic cần đồng bộ cả 2 nhánh.
+
+============================================================
+8) QUY ƯỚC CẬP NHẬT FILE NÀY (BẮT BUỘC SAU NÀY)
+============================================================
+
+Mỗi lần chỉnh sửa lớn, cập nhật lại file này với:
+- Mục tiêu chỉnh sửa.
+- File đã sửa (đường dẫn đầy đủ).
+- Ảnh hưởng UI/logic.
+- Việc cần follow-up.
+
+Checklist sau mỗi lần chỉnh:
+1) npm run build
+2) chụp preview
+3) commit + push
+4) update file này
+
+End of document.
