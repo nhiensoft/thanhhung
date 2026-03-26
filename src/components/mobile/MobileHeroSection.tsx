@@ -1,35 +1,28 @@
 const MobileHeroSection = () => {
-  return <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
-      {/* Dark Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-gray-800" />
-      
-      {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/70" />
-      
-      {/* Content */}
+  return (
+    <section className="relative min-h-[52vh] flex items-center justify-center overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-hero" />
+      <div className="absolute inset-0 bg-black/40" />
+
       <div className="relative z-10 text-center px-4 max-w-sm mx-auto">
-        <div className="space-y-6">
-          {/* Main Title */}
-          <div className="animate-fade-in animation-delay-200">
-            <h1 className="text-lg font-playfair font-semibold text-primary-foreground drop-shadow-lg leading-relaxed">
-              Khi ánh nhìn chạm tới<br />
-              Khi trái tim rung động
-            </h1>
-          </div>
-          
-          {/* Subtitle */}
-          <div className="animate-fade-in animation-delay-400">
-            <h2 className="text-xl font-playfair font-bold text-primary-foreground drop-shadow-2xl leading-tight">
-              <span className="bg-gradient-to-r from-orange-400 to-amber-300 bg-clip-text text-transparent filter drop-shadow-lg">
-                Là lúc bạn nên bắt đầu hành động
-              </span>
-            </h2>
-          </div>
+        <div className="inline-flex items-center px-3 py-1 rounded-full bg-white/20 border border-white/30 text-white text-[10px] tracking-[0.16em] uppercase font-inter mb-4">
+          Việt Nam & HOU
         </div>
+
+        <h1 className="text-2xl font-playfair font-bold text-white leading-tight mb-3">
+          Khi ánh nhìn chạm tới,
+          <br />
+          <span className="text-sunrise-yellow">trái tim rung động</span>
+        </h1>
+
+        <p className="text-sm text-white/90 font-inter leading-relaxed">
+          Khám phá vẻ đẹp Việt Nam để bắt đầu hành trình học tập và cống hiến.
+        </p>
       </div>
-      
-      {/* Decorative Elements */}
+
       <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-background to-transparent" />
-    </section>;
+    </section>
+  );
 };
+
 export default MobileHeroSection;
