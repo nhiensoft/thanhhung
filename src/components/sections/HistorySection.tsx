@@ -1,8 +1,18 @@
-import { 
-  Landmark, Shield, Swords, Castle, BookOpen, 
-  ScrollText, Flame, Flag, Building2, Cpu 
+import {
+  Landmark,
+  Shield,
+  Swords,
+  Castle,
+  BookOpen,
+  ScrollText,
+  Flame,
+  Flag,
+  Building2,
+  Cpu,
+  Sparkles,
 } from "lucide-react";
-import { useState, useRef, useEffect } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { cn } from "@/lib/utils";
 
 interface TimelinePeriod {
   period: string;
@@ -10,267 +20,295 @@ interface TimelinePeriod {
   description: string;
   icon: any;
   events: string[];
+  mood: string;
 }
 
 const vietnamHistory: TimelinePeriod[] = [
   {
     period: "2879 TCN – 111 TCN",
     title: "Hùng Vương – Âu Lạc",
-    description: "Khởi nguồn văn minh Việt Nam với 18 đời Hùng Vương và Nhà nước Âu Lạc",
+    description: "Khởi nguồn văn minh Việt Nam với 18 đời Hùng Vương và Nhà nước Âu Lạc.",
     icon: Landmark,
-    events: ["Thời kỳ Hùng Vương với Văn Lang", "Nhà nước Âu Lạc của An Dương Vương", "Nền tảng văn hóa trống đồng"],
+    mood: "Khởi nguyên",
+    events: [
+      "Thời kỳ Hùng Vương với Văn Lang",
+      "Nhà nước Âu Lạc của An Dương Vương",
+      "Nền tảng văn hóa trống đồng",
+    ],
   },
   {
     period: "40 – 43",
     title: "Khởi nghĩa Hai Bà Trưng",
-    description: "Cuộc khởi nghĩa đầu tiên chống ngoại xâm, khẳng định tinh thần bất khuất dân tộc",
+    description: "Cuộc khởi nghĩa đầu tiên chống ngoại xâm, khẳng định tinh thần bất khuất dân tộc.",
     icon: Shield,
-    events: ["Trưng Trắc – Trưng Nhị khởi nghĩa", "Lập nên nhà nước độc lập 3 năm", "Tinh thần yêu nước bất khuất"],
+    mood: "Bất khuất",
+    events: [
+      "Trưng Trắc – Trưng Nhị khởi nghĩa",
+      "Lập nên nhà nước độc lập 3 năm",
+      "Tinh thần yêu nước bất khuất",
+    ],
   },
   {
     period: "544 – 602",
     title: "Nhà nước Vạn Xuân",
-    description: "Lý Bí lập nên nhà nước Vạn Xuân, khẳng định ý chí độc lập dân tộc",
+    description: "Lý Bí lập nên nhà nước Vạn Xuân, khẳng định ý chí độc lập dân tộc.",
     icon: Flag,
-    events: ["Lý Bí lập nhà nước Vạn Xuân", "Triều đại Tiền Lý", "Khẳng định chủ quyền dân tộc"],
+    mood: "Tự chủ",
+    events: [
+      "Lý Bí lập nhà nước Vạn Xuân",
+      "Triều đại Tiền Lý",
+      "Khẳng định chủ quyền dân tộc",
+    ],
   },
   {
     period: "938 – 967",
     title: "Nhà Ngô – Độc lập tự chủ",
-    description: "Ngô Quyền đánh bại Nam Hán trên sông Bạch Đằng, mở đầu thời kỳ độc lập lâu dài",
+    description: "Ngô Quyền đánh bại Nam Hán trên sông Bạch Đằng, mở đầu thời kỳ độc lập lâu dài.",
     icon: Swords,
-    events: ["Ngô Quyền thắng trận Bạch Đằng", "Kết thúc Bắc thuộc lần 4", "Mở đầu thời kỳ tự chủ"],
+    mood: "Chiến thắng",
+    events: [
+      "Ngô Quyền thắng trận Bạch Đằng",
+      "Kết thúc Bắc thuộc lần 4",
+      "Mở đầu thời kỳ tự chủ",
+    ],
   },
   {
     period: "1010 – 1225",
     title: "Triều đại Lý",
-    description: "Thời kỳ thịnh vượng, xây dựng Thăng Long, phát triển văn hóa Phật giáo",
+    description: "Thời kỳ thịnh vượng, xây dựng Thăng Long, phát triển văn hóa Phật giáo.",
     icon: Castle,
-    events: ["Lý Thái Tổ dời đô về Thăng Long", "Xây dựng chùa Một Cột", "Phát triển nền giáo dục"],
+    mood: "Thăng Long",
+    events: [
+      "Lý Thái Tổ dời đô về Thăng Long",
+      "Xây dựng chùa Một Cột",
+      "Phát triển nền giáo dục",
+    ],
   },
   {
     period: "1225 – 1400",
     title: "Triều đại Trần",
-    description: "Đỉnh cao văn hóa, ba lần đánh thắng quân Mông – Nguyên",
+    description: "Đỉnh cao văn hóa, ba lần đánh thắng quân Mông – Nguyên.",
     icon: BookOpen,
-    events: ["Ba lần chống Mông Nguyên", "Trần Nhân Tông lập Thiền phái Trúc Lâm", "Phát triển văn học, sử học"],
+    mood: "Hào khí Đông A",
+    events: [
+      "Ba lần chống Mông Nguyên",
+      "Trần Nhân Tông lập Thiền phái Trúc Lâm",
+      "Phát triển văn học, sử học",
+    ],
   },
   {
     period: "1858 – 1945",
     title: "Thời kỳ Pháp thuộc",
-    description: "90 năm đấu tranh chống thực dân Pháp, chuẩn bị cho cách mạng giải phóng dân tộc",
+    description: "90 năm đấu tranh chống thực dân Pháp, chuẩn bị cho cách mạng giải phóng dân tộc.",
     icon: ScrollText,
-    events: ["Phong trào Cần Vương", "Phong trào Đông Du của Phan Bội Châu", "Sự ra đời của Đảng Cộng sản Việt Nam"],
+    mood: "Kiên cường",
+    events: [
+      "Phong trào Cần Vương",
+      "Phong trào Đông Du của Phan Bội Châu",
+      "Sự ra đời của Đảng Cộng sản Việt Nam",
+    ],
   },
   {
     period: "1945 – 1975",
     title: "Kháng chiến chống Pháp – Mỹ",
-    description: "Từ Cách mạng Tháng 8 đến thống nhất đất nước, hoàn thành độc lập dân tộc",
+    description: "Từ Cách mạng Tháng 8 đến thống nhất đất nước, hoàn thành độc lập dân tộc.",
     icon: Flame,
-    events: ["1945: Cách mạng Tháng 8 thành công", "1954: Chiến thắng Điện Biên Phủ", "1975: Thống nhất đất nước"],
+    mood: "Toàn thắng",
+    events: [
+      "1945: Cách mạng Tháng 8 thành công",
+      "1954: Chiến thắng Điện Biên Phủ",
+      "1975: Thống nhất đất nước",
+    ],
   },
   {
     period: "1975 – 1990",
     title: "Việt Nam thống nhất",
-    description: "Xây dựng đất nước, đổi mới và hội nhập quốc tế, phát triển toàn diện",
+    description: "Xây dựng đất nước, đổi mới và hội nhập quốc tế, phát triển toàn diện.",
     icon: Building2,
-    events: ["1976: Thống nhất chính thức", "1986: Đổi mới kinh tế", "Hội nhập quốc tế sâu rộng"],
+    mood: "Đổi mới",
+    events: [
+      "1976: Thống nhất chính thức",
+      "1986: Đổi mới kinh tế",
+      "Hội nhập quốc tế sâu rộng",
+    ],
   },
   {
     period: "1990 – nay",
     title: "Phát triển Khoa học Công nghệ",
-    description: "Bước tiến mạnh mẽ trong lĩnh vực khoa học, kỹ thuật và công nghệ hiện đại",
+    description: "Bước tiến mạnh mẽ trong khoa học, kỹ thuật và công nghệ hiện đại.",
     icon: Cpu,
-    events: ["Phát triển công nghệ thông tin", "Đầu tư vào nghiên cứu khoa học", "Chuyển đổi số quốc gia"],
+    mood: "Vươn tầm",
+    events: [
+      "Phát triển công nghệ thông tin",
+      "Đầu tư vào nghiên cứu khoa học",
+      "Chuyển đổi số quốc gia",
+    ],
   },
 ];
 
-const TimelineCard = ({ period, index, isVisible }: { period: TimelinePeriod; index: number; isVisible: boolean }) => {
-  const Icon = period.icon;
-  const isLeft = index % 2 === 0;
-  const [isHovered, setIsHovered] = useState(false);
-
-  return (
-    <div className="relative grid grid-cols-[1fr_auto_1fr] gap-0 items-center">
-      {/* Left content */}
-      <div className={`${isLeft ? 'pr-10' : ''}`}>
-        {isLeft && (
-          <div
-            className={`transition-all duration-700 ease-out ${
-              isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-12'
-            }`}
-            style={{ transitionDelay: `${index * 60}ms` }}
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
-          >
-            <CardContent period={period} isHovered={isHovered} alignRight />
-          </div>
-        )}
-      </div>
-
-      {/* Center timeline node */}
-      <div className="relative flex flex-col items-center z-10">
-        <div
-          className={`relative w-12 h-12 rounded-full flex items-center justify-center transition-all duration-500 ${
-            isVisible ? 'scale-100' : 'scale-0'
-          }`}
-          style={{ transitionDelay: `${index * 60 + 150}ms` }}
-        >
-          <div className={`absolute inset-0 rounded-full bg-sunrise-orange/15 transition-all duration-300 ${isHovered ? 'scale-150 opacity-100' : 'scale-100 opacity-0'}`} />
-          <div className="absolute inset-0 rounded-full border-2 border-sunrise-orange/40" />
-          <div className={`relative w-10 h-10 rounded-full bg-background border-2 border-sunrise-orange flex items-center justify-center transition-all duration-300 ${isHovered ? 'bg-sunrise-orange' : ''}`}>
-            <Icon className={`h-4 w-4 transition-colors duration-300 ${isHovered ? 'text-white' : 'text-sunrise-orange'}`} />
-          </div>
-        </div>
-      </div>
-
-      {/* Right content */}
-      <div className={`${!isLeft ? 'pl-10' : ''}`}>
-        {!isLeft && (
-          <div
-            className={`transition-all duration-700 ease-out ${
-              isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-12'
-            }`}
-            style={{ transitionDelay: `${index * 60}ms` }}
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
-          >
-            <CardContent period={period} isHovered={isHovered} />
-          </div>
-        )}
-      </div>
-    </div>
-  );
-};
-
-const CardContent = ({
-  period,
-  isHovered,
-  alignRight,
-}: {
-  period: TimelinePeriod;
-  isHovered: boolean;
-  alignRight?: boolean;
-}) => {
-  return (
-    <div
-      className={`group relative p-6 rounded-xl border bg-card/90 backdrop-blur-sm
-        transition-all duration-400 cursor-pointer overflow-hidden
-        ${isHovered ? 'shadow-heritage border-sunrise-orange/30 -translate-y-0.5' : 'border-border/60 shadow-card'}
-        ${alignRight ? 'text-right' : 'text-left'}`}
-    >
-      {/* Accent bar */}
-      <div
-        className={`absolute ${alignRight ? 'right-0' : 'left-0'} top-0 bottom-0 w-0.5 bg-sunrise-orange transition-all duration-400 ${
-          isHovered ? 'w-1 opacity-100' : 'opacity-40'
-        }`}
-      />
-
-      <div className="relative z-10">
-        {/* Period */}
-        <span className="inline-block px-3 py-1 text-[11px] font-inter font-semibold tracking-wider uppercase rounded-md bg-sunrise-orange/10 text-sunrise-orange mb-3">
-          {period.period}
-        </span>
-
-        {/* Title */}
-        <h3 className={`text-lg font-playfair font-bold text-foreground mb-1.5 transition-colors duration-300 ${isHovered ? 'text-sunrise-orange' : ''}`}>
-          {period.title}
-        </h3>
-
-        {/* Description */}
-        <p className="text-sm text-muted-foreground font-inter leading-relaxed mb-3">
-          {period.description}
-        </p>
-
-        {/* Events */}
-        <div
-          className={`space-y-1.5 transition-all duration-400 overflow-hidden ${
-            isHovered ? 'max-h-32 opacity-100' : 'max-h-0 opacity-0'
-          }`}
-        >
-          {period.events.map((event, i) => (
-            <div
-              key={i}
-              className={`flex items-center gap-2 text-sm text-foreground/70 font-inter ${alignRight ? 'flex-row-reverse' : ''}`}
-            >
-              <div className="w-1 h-1 rounded-full bg-sunrise-orange flex-shrink-0" />
-              <span>{event}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-};
+const progressColor = [
+  "from-amber-500 to-orange-500",
+  "from-rose-500 to-red-500",
+  "from-sky-500 to-indigo-500",
+  "from-indigo-500 to-violet-500",
+  "from-cyan-500 to-blue-600",
+  "from-emerald-500 to-teal-500",
+  "from-orange-500 to-amber-500",
+  "from-red-500 to-orange-500",
+  "from-blue-500 to-cyan-500",
+  "from-violet-500 to-indigo-500",
+];
 
 const HistorySection = () => {
-  const [visibleCards, setVisibleCards] = useState<Set<number>>(new Set());
-  const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
-    const observers: IntersectionObserver[] = [];
+    const sections = Array.from(document.querySelectorAll<HTMLElement>("[data-history-step]"));
 
-    cardRefs.current.forEach((ref, index) => {
-      if (!ref) return;
-      const observer = new IntersectionObserver(
-        ([entry]) => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            setVisibleCards((prev) => new Set([...prev, index]));
+            const idx = Number(entry.target.getAttribute("data-history-step"));
+            if (!Number.isNaN(idx)) setActiveIndex(idx);
           }
-        },
-        { threshold: 0.2, rootMargin: '0px 0px -50px 0px' }
-      );
-      observer.observe(ref);
-      observers.push(observer);
-    });
+        });
+      },
+      {
+        rootMargin: "-30% 0px -45% 0px",
+        threshold: 0.2,
+      }
+    );
 
-    return () => observers.forEach((o) => o.disconnect());
+    sections.forEach((el) => observer.observe(el));
+    return () => observer.disconnect();
   }, []);
 
-  return (
-    <section className="relative py-24 overflow-hidden" id="history-timeline">
-      {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background via-secondary/20 to-background" />
+  const active = vietnamHistory[activeIndex];
+  const ActiveIcon = active.icon;
 
-      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="text-center mb-20">
-          <span className="inline-block px-4 py-1.5 text-xs font-inter font-semibold tracking-[0.15em] uppercase text-sunrise-orange border border-sunrise-orange/30 rounded-full mb-5">
-            Dòng chảy lịch sử
+  const progress = useMemo(() => ((activeIndex + 1) / vietnamHistory.length) * 100, [activeIndex]);
+
+  return (
+    <section id="history-timeline" className="relative py-20 md:py-28 overflow-hidden bg-gradient-to-b from-background via-secondary/20 to-background">
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute -top-24 left-0 w-80 h-80 bg-primary/10 rounded-full blur-3xl" />
+        <div className="absolute top-1/3 right-0 w-96 h-96 bg-mountain-blue/10 rounded-full blur-3xl" />
+      </div>
+
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12 md:mb-16">
+          <span className="inline-flex items-center gap-2 px-4 py-1.5 text-xs font-inter font-semibold tracking-[0.18em] uppercase text-primary border border-primary/30 rounded-full mb-4">
+            <Sparkles className="h-3.5 w-3.5" />
+            Scrollytelling Timeline
           </span>
-          <h2 className="text-4xl md:text-5xl font-playfair font-bold text-foreground mb-4 leading-tight">
-            4000 Năm Dựng Nước
-            <br />
-            <span className="text-sunrise-orange">& Giữ Nước</span>
+
+          <h2 className="text-4xl md:text-5xl font-playfair font-bold text-foreground leading-tight">
+            Dòng Chảy Lịch Sử Việt Nam
           </h2>
-          <p className="text-base text-muted-foreground font-inter max-w-xl mx-auto leading-relaxed">
-            Hành trình kiên cường của dân tộc Việt Nam qua mỗi trang sử hào hùng
+          <p className="text-muted-foreground max-w-2xl mx-auto mt-4">
+            Cuộn xuống để đi qua từng thời kỳ — mỗi mốc là một lát cắt của bản lĩnh dân tộc.
           </p>
         </div>
 
-        {/* Timeline */}
-        <div className="relative">
-          {/* Vertical spine */}
-          <div className="absolute left-1/2 top-0 bottom-0 w-px -translate-x-1/2 bg-border" />
-
-          <div className="space-y-12">
-            {vietnamHistory.map((period, index) => (
-              <div
-                key={index}
-                ref={(el) => { cardRefs.current[index] = el; }}
-              >
-                <TimelineCard
-                  period={period}
-                  index={index}
-                  isVisible={visibleCards.has(index)}
-                />
+        <div className="grid grid-cols-1 lg:grid-cols-[300px_minmax(0,1fr)] gap-8 lg:gap-12">
+          {/* Sticky story panel */}
+          <aside className="lg:sticky lg:top-24 self-start">
+            <div className="rounded-2xl border border-border/70 bg-card/95 shadow-card p-5 md:p-6 backdrop-blur">
+              <div className="flex items-center gap-3 mb-4">
+                <div className={cn("w-11 h-11 rounded-xl bg-gradient-to-br text-white flex items-center justify-center", progressColor[activeIndex])}>
+                  <ActiveIcon className="h-5 w-5" />
+                </div>
+                <div>
+                  <p className="text-xs uppercase tracking-[0.16em] text-muted-foreground">Mốc hiện tại</p>
+                  <p className="text-sm font-semibold text-primary">{active.period}</p>
+                </div>
               </div>
-            ))}
-          </div>
 
-          {/* End dot */}
-          <div className="flex justify-center mt-12">
-            <div className="w-3 h-3 rounded-full bg-sunrise-orange" />
+              <h3 className="text-2xl font-playfair font-bold text-foreground mb-2">{active.title}</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed mb-4">{active.description}</p>
+
+              <div className="space-y-2 mb-5">
+                {active.events.map((event, idx) => (
+                  <div key={idx} className="flex items-start gap-2 text-sm">
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
+                    <span className="text-foreground/85">{event}</span>
+                  </div>
+                ))}
+              </div>
+
+              <div className="space-y-2">
+                <div className="flex items-center justify-between text-xs text-muted-foreground">
+                  <span>Tiến trình hành trình</span>
+                  <span>{activeIndex + 1}/{vietnamHistory.length}</span>
+                </div>
+                <div className="h-2 rounded-full bg-secondary overflow-hidden">
+                  <div
+                    className={cn("h-full rounded-full bg-gradient-to-r transition-all duration-500", progressColor[activeIndex])}
+                    style={{ width: `${progress}%` }}
+                  />
+                </div>
+                <p className="text-xs text-muted-foreground">Chủ đề: <span className="font-medium text-foreground">{active.mood}</span></p>
+              </div>
+            </div>
+          </aside>
+
+          {/* Scroll steps */}
+          <div className="space-y-4">
+            {vietnamHistory.map((period, index) => {
+              const Icon = period.icon;
+              const isActive = index === activeIndex;
+
+              return (
+                <article
+                  key={index}
+                  data-history-step={index}
+                  className={cn(
+                    "rounded-2xl border bg-card/90 p-5 md:p-6 transition-all duration-300",
+                    isActive
+                      ? "border-primary/60 shadow-heritage scale-[1.01]"
+                      : "border-border/60 hover:border-primary/30"
+                  )}
+                >
+                  <div className="flex items-start gap-4">
+                    <div
+                      className={cn(
+                        "w-10 h-10 rounded-xl flex items-center justify-center text-white shrink-0",
+                        "bg-gradient-to-br",
+                        progressColor[index],
+                        !isActive && "opacity-70"
+                      )}
+                    >
+                      <Icon className="h-4 w-4" />
+                    </div>
+
+                    <div className="min-w-0 flex-1">
+                      <div className="flex flex-wrap items-center gap-2 mb-2">
+                        <span className="text-xs font-semibold tracking-[0.14em] uppercase px-2.5 py-1 rounded-md bg-primary/10 text-primary">
+                          {period.period}
+                        </span>
+                        {isActive && (
+                          <span className="text-[11px] px-2 py-1 rounded-md bg-emerald-100 text-emerald-700 font-semibold">
+                            Đang xem
+                          </span>
+                        )}
+                      </div>
+
+                      <h4 className="text-xl font-playfair font-bold text-foreground mb-2">{period.title}</h4>
+                      <p className="text-sm text-muted-foreground leading-relaxed mb-3">{period.description}</p>
+
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+                        {period.events.map((event, i) => (
+                          <div key={i} className="rounded-lg border border-border/60 bg-background/70 px-3 py-2 text-xs text-foreground/80">
+                            {event}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
           </div>
         </div>
       </div>
