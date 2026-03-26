@@ -1,132 +1,73 @@
-# HOU Cùng Việt Nam — Rebuild (React + Tailwind + Framer Motion)
+# Welcome to your Lovable project
 
-Dự án này là bản **đập đi xây lại** website tham chiếu:
+## Project info
 
-- Nguồn: <https://vn-hou-hung.lovable.app>
-- Stack: React 19, Vite 8, TypeScript, Tailwind CSS v4, Framer Motion
-- Mục tiêu: tái tạo layout + nội dung và nâng cấp giao diện theo style premium (glassmorphism, shadow, typography, scroll animation mượt)
+**URL**: https://lovable.dev/projects/6dce9825-6066-4bae-baa0-3bd40b00671a
 
-## Những gì đã hoàn thành
+## How can I edit this code?
 
-### 1) Liệt kê toàn bộ link/URL trong trang
+There are several ways of editing your application.
 
-Đã trích xuất và lưu đầy đủ tại:
+**Use Lovable**
 
-- `research/analysis/all-links.txt`
-- `research/analysis/page-analysis.json` (`links`)
+Simply visit the [Lovable Project](https://lovable.dev/projects/6dce9825-6066-4bae-baa0-3bd40b00671a) and start prompting.
 
-Tổng link phát hiện: **21** (các link tuyển sinh HOU).
+Changes made via Lovable will be committed automatically to this repo.
 
-### 2) Chụp fullpage + bóc tách DOM/layout/font/màu
+**Use your preferred IDE**
 
-Đã tạo:
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-- Screenshot fullpage trang gốc: `research/source/fullpage.png`
-- Phân tích tổng hợp: `research/analysis/page-analysis.json`
-- Cây DOM tóm tắt: `research/analysis/dom-tree.json`
-- Dữ liệu nội dung section/card/headings: `research/analysis/extracted-content.json`
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Các thông tin gồm:
+Follow these steps:
 
-- Section structure, className, heading, childCount
-- Font family thực tế
-- Màu sắc và CSS variables
-- Nút điều hướng, heading, card content
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-### 3) Tự động tải assets + dựng cấu trúc thư mục chuẩn
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-Đã tải assets từ trang nguồn vào:
+# Step 3: Install the necessary dependencies.
+npm i
 
-- `src/assets/original/`
-
-Manifest chi tiết:
-
-- `research/analysis/asset-manifest.json`
-
-Thống kê tải ảnh:
-
-- Total: **71**
-- Success: **71**
-- Error: **0**
-
-### 4) Rebuild toàn bộ bằng React + Tailwind CSS
-
-Đã code lại toàn bộ trang với cấu trúc section rõ ràng trong:
-
-- `src/App.tsx`
-- `src/data/content.ts` (data-driven content)
-- `src/index.css` (theme, typography, glassmorphism, gradients)
-
-Có đầy đủ:
-
-- Hero + sticky nav
-- Timeline lịch sử tương tác
-- Grid vẻ đẹp Việt Nam (lọc vùng + load more)
-- Làng nghề, Ẩm thực
-- Triết lý “Mở”, khối HOU highlights + form tư vấn
-
-### 5) Bắt buộc UI/UX Promax (Framer Motion + glass + premium)
-
-Đã triển khai:
-
-- Framer Motion scroll reveal cho toàn bộ section/cards
-- Glassmorphism cho nav và card (`.glass-panel`)
-- Typography nâng cấp (`Inter` + `Playfair Display`)
-- Shadow system + gradient title + spacing sạch theo chuẩn hiện đại
-
-## Cấu trúc thư mục chính
-
-```text
-project/
-├─ research/
-│  ├─ analysis/
-│  │  ├─ all-links.txt
-│  │  ├─ asset-manifest.json
-│  │  ├─ dom-tree.json
-│  │  ├─ extracted-content.json
-│  │  └─ page-analysis.json
-│  └─ source/
-│     ├─ fullpage.png
-│     ├─ index.html
-│     ├─ index-BXUDRaiQ.js
-│     └─ index-B_U1ZKmA.css
-├─ src/
-│  ├─ assets/
-│  │  └─ original/              # ảnh tải từ source
-│  ├─ components/ui/
-│  │  ├─ button.tsx
-│  │  └─ button-variants.ts
-│  ├─ data/
-│  │  └─ content.ts
-│  ├─ lib/
-│  │  ├─ animations.ts
-│  │  └─ utils.ts
-│  ├─ App.tsx
-│  └─ index.css
-└─ README.md
-```
-
-## Chạy local
-
-```bash
-npm install
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-Build production:
+**Edit a file directly in GitHub**
 
-```bash
-npm run build
-```
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-Lint:
+**Use GitHub Codespaces**
 
-```bash
-npm run lint
-```
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## Ghi chú
+## What technologies are used for this project?
 
-- Dự án giữ nội dung và đường link theo bản gốc để tiện đối chiếu.
-- Một số ảnh ngoài domain gốc vẫn được giữ URL trực tiếp trong data để bảo toàn nội dung chuẩn nguồn.
-- `src/assets/original/` đã chứa bản tải local nếu cần chuyển toàn bộ sang self-host.
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/6dce9825-6066-4bae-baa0-3bd40b00671a) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)

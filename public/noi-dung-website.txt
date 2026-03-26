@@ -1,0 +1,873 @@
+NỘI DUNG WEBSITE - HOU CÙNG VIỆT NAM - TOÀN BỘ DỮ LIỆU WEBSITE
+
+=================================================================================
+THÔNG TIN TỔNG QUAN WEBSITE
+=================================================================================
+Tên website: Hou cùng Việt Nam
+Mô tả: Ngắm nhìn lại vẻ đẹp của tổ quốc, cảm nhận lại trái tim, và bắt đầu hành động với tình yêu tổ quốc
+Tác giả: Nguyen Thanh Hung
+Từ khóa: Tổ quốc trong tim, tình yêu tổ quốc, lịch sử việt nam, việt nam, đồ ăn việt nam, làng truyền thống, làng truyền thống việt nam, di sản văn hóa việt nam, unesco việt nam, phở hà nội, bún chả, bánh mì việt nam, văn miếu quốc tử giám, hoàng thành thăng long, hạ long, hội an, phong nha kẻ bàng, huế, thánh địa mỹ sơn, làng gốm bát tràng, làng lụa vạn phúc, du lịch việt nam, cảnh đẹp việt nam, ẩm thực việt nam, làng nghề thủ công, di tích lịch sử, danh lam thắng cảnh
+
+=================================================================================
+PHẦN HERO SECTION - TIÊU ĐỀ CHÍNH
+=================================================================================
+Tiêu đề chính: "Khi ánh nhìn chạm tới – Khi trái tim rung động"
+Phụ đề quan trọng: "Là lúc bạn nên bắt đầu hành động"
+
+=================================================================================
+PHẦN LỊCH SỬ VIỆT NAM - TIMELINE TƯƠNG TÁC
+=================================================================================
+Tiêu đề: "Lịch sử Phát triển Việt Nam"
+Mô tả: "Hành trình 4000 năm xây dựng và bảo vệ Tổ quốc của dân tộc Việt Nam"
+
+Chi tiết 10 giai đoạn lịch sử:
+
+1. THỜI KỲ HÙNG VƯƠNG - ÂU LẠC (2879 TCN - 111 TCN)
+Tiêu đề: "Thời kỳ Hùng Vương - Âu Lạc"
+Mô tả: "Khởi nguồn văn minh Việt Nam với 18 đời Hùng Vương và Nhà nước Âu Lạc"
+Sự kiện quan trọng:
+- Thời kỳ Hùng Vương với Văn Lang
+- Nhà nước Âu Lạc của An Dương Vương
+- Nền tảng văn hóa đồng trống
+
+2. KHỞI NGHĨA HAI BÀ TRƯNG (40-43)
+Tiêu đề: "Khởi nghĩa Hai Bà Trưng"
+Mô tả: "Cuộc khởi nghĩa đầu tiên chống ngoại xâm, khẳng định tinh thần bất khuất dân tộc"
+Sự kiện quan trọng:
+- Trưng Trắc - Trưng Nhị khởi nghĩa
+- Lập nên nhà nước độc lập 3 năm
+- Tinh thần yêu nước bất khuất
+
+3. KHỞI NGHĨA LÝ BÍ (544-602)
+Tiêu đề: "Khởi nghĩa Lý Bí"
+Mô tả: "Lý Bí lập nên nhà nước Vạn Xuân, khẳng định ý chí độc lập dân tộc"
+Sự kiện quan trọng:
+- Lý Bí lập nhà nước Vạn Xuân
+- Triều đại Tiền Lý
+- Khẳng định chủ quyền dân tộc
+
+4. NHÀ NGÔ - ĐỘC LẬP TỰ CHỦ (938-967)
+Tiêu đề: "Nhà Ngô - Độc lập tự chủ"
+Mô tả: "Ngô Quyền đánh bại Nam Hán, mở đầu thời kỳ độc lập lâu dài"
+Sự kiện quan trọng:
+- Ngô Quyền thắng trận Bạch Đằng
+- Kết thúc Bắc thuộc lần 4
+- Mở đầu thời kỳ tự chủ
+
+5. TRIỀU ĐẠI LÝ (1010-1225)
+Tiêu đề: "Triều đại Lý"
+Mô tả: "Thời kỳ thịnh vượng, xây dựng Thăng Long, phát triển văn hóa Phật giáo"
+Sự kiện quan trọng:
+- Lý Thái Tổ dời đô về Thăng Long
+- Xây dựng chùa Một Cột
+- Phát triển nền giáo dục
+
+6. TRIỀU ĐẠI TRẦN (1225-1400)
+Tiêu đề: "Triều đại Trần"
+Mô tả: "Đỉnh cao văn hóa, ba lần đánh thắng quân Mông - Nguyên"
+Sự kiện quan trọng:
+- Ba lần chống Mông Nguyên
+- Trần Nhân Tông lập Thiền phái Trúc Lâm
+- Phát triển văn học, sử học
+
+7. THỜI KỲ PHÁP THUỘC (1858-1945)
+Tiêu đề: "Thời kỳ Pháp thuộc"
+Mô tả: "90 năm đấu tranh chống thực dân Pháp, chuẩn bị cho cách mạng giải phóng dân tộc"
+Sự kiện quan trọng:
+- Phong trào Cần Vương
+- Phong trào Đông Du của Phan Bội Châu
+- Sự ra đời của Đảng Cộng sản Việt Nam
+
+8. KHÁNG CHIẾN CHỐNG PHÁP - MỸ (1945-1975)
+Tiêu đề: "Kháng chiến chống Pháp - Mỹ"
+Mô tả: "Từ Cách mạng Tháng 8 đến thống nhất đất nước, hoàn thành độc lập dân tộc"
+Sự kiện quan trọng:
+- 1945: Cách mạng Tháng 8 thành công
+- 1954: Chiến thắng Điện Biên Phủ
+- 1975: Thống nhất đất nước
+
+9. VIỆT NAM THỐNG NHẤT (1975-1990)
+Tiêu đề: "Việt Nam thống nhất"
+Mô tả: "Xây dựng đất nước, đổi mới và hội nhập quốc tế, phát triển toàn diện"
+Sự kiện quan trọng:
+- 1976: Thống nhất chính thức
+- 1986: Đổi mới kinh tế
+- Hội nhập quốc tế sâu rộng
+
+10. PHÁT TRIỂN KHOA HỌC CÔNG NGHỆ (1990-nay)
+Tiêu đề: "Phát triển Khoa học Công nghệ"
+Mô tả: "Bước tiến mạnh mẽ trong lĩnh vực khoa học, kỹ thuật và công nghệ hiện đại"
+Sự kiện quan trọng:
+- Phát triển công nghệ thông tin
+- Đầu tư vào nghiên cứu khoa học
+- Chuyển đổi số quốc gia
+
+=================================================================================
+PHẦN DI SẢN VĂN HÓA VÀ THIÊN NHIÊN VIỆT NAM
+=================================================================================
+Tiêu đề: "Vẻ Đẹp Việt Nam"
+Mô tả: "Khám phá vẻ đẹp di sản văn hóa và thiên nhiên Việt Nam qua hành trình vô tận"
+
+PHÂN CHIA THEO VÙNG MIỀN:
+- Bắc Bộ: Di sản miền Bắc
+- Trung Bộ: Di sản miền Trung  
+- Nam Bộ: Di sản miền Nam
+
+PHÂN LOẠI DI SẢN:
+1. Thiên nhiên UNESCO
+2. Văn hóa UNESCO
+3. Di tích lịch sử
+4. Kiến trúc tôn giáo
+5. Danh lam thắng cảnh
+6. Kiến trúc hiện đại
+
+CHI TIẾT CÁC DI TÍCH QUAN TRỌNG:
+
+UNESCO WORLD HERITAGE SITES:
+
+1. Vịnh Hạ Long
+Vị trí: Hạ Long, Quảng Ninh
+Loại: Thiên nhiên UNESCO
+Thời gian: Hình thành 500 triệu năm trước
+Mô tả: Di sản thiên nhiên thế giới với hàng nghìn đảo đá vôi kỳ vĩ nổi lên từ vùng biển xanh thẳm, tạo nên một bức tranh thiên nhiên tuyệt đẹp.
+Đặc điểm: 1.600 đảo đá vôi, Động Thiên Cung, Hang Đầu Gỗ, Làng chài Cửa Vạn
+
+2. Phong Nha - Kẻ Bàng
+Vị trí: Bố Trạch, Quảng Bình
+Loại: Thiên nhiên UNESCO
+Thời gian: Kỷ Ordovic - 450 triệu năm
+Mô tả: Vườn quốc gia với hệ thống hang động lớn nhất thế giới, bao gồm hang Sơn Trà - hang động lớn nhất thế giới.
+Đặc điểm: Hang Sơn Trà, Hang Phong Nha, Hang Thiên Đường, Suối Moọc
+
+3. Phố cổ Hội An
+Vị trí: Hội An, Quảng Nam
+Loại: Văn hóa UNESCO
+Thời gian: Thế kỷ 15-19
+Mô tả: Thành phố cổ được bảo tồn nguyên vẹn với kiến trúc độc đáo pha trộn văn hóa Việt, Trung, Nhật và phương Tây.
+Đặc điểm: Chùa Cầu Nhật Bản, Phố đèn lồng, Nhà cổ Tấn Ký, Phố Trần Phú
+
+4. Thánh địa Mỹ Sơn
+Vị trí: Duy Phú, Quảng Nam
+Loại: Văn hóa UNESCO
+Thời gian: Thế kỷ 4-14
+Mô tả: Quần thể đền tháp Chăm cổ nhất và lớn nhất Việt Nam, là trung tâm tín ngưỡng Hindu của vương quốc Champa.
+Đặc điểm: Tháp Chăm cổ, Điêu khắc Hindu, Linga-Yoni, Kiến trúc Champa
+
+5. Quần thể di tích cố đô Huế
+Vị trí: Huế, Thừa Thiên Huế
+Loại: Văn hóa UNESCO
+Thời gian: 1802-1945
+Mô tả: Cố đô của triều đại Nguyễn với hoàng cung, lăng tẩm và chùa chiền mang đậm dấu ấn kiến trúc hoàng gia Việt Nam.
+Đặc điểm: Đại Nội, Lăng Khải Định, Chùa Thiên Mụ, Sông Hương
+
+6. Hoàng thành Thăng Long
+Vị trí: Ba Đình, Hà Nội
+Loại: Văn hóa UNESCO
+Thời gian: 1010-1804
+Mô tả: Di tích khảo cổ của kinh đô Thăng Long - trung tâm chính trị của Việt Nam trong hơn 1000 năm.
+Đặc điểm: Cột cờ Hà Nội, Hậu Lâu, Kinh Thiên điện, Lối đi cổ
+
+7. Thành nhà Hồ
+Vị trí: Thanh Liêm, Thanh Hóa
+Loại: Văn hóa UNESCO
+Thời gian: 1397-1407
+Mô tả: Di tích UNESCO với kiến trúc thành quách bằng đá độc đáo, minh chứng cho kỹ thuật xây dựng tiên tiến của Việt Nam thế kỷ 14.
+Đặc điểm: Thành quách đá xanh, Kỹ thuật xây dựng độc đáo, Cổng thành Nam và Bắc, Kiến trúc quân sự
+
+8. Quần thể danh thắng Tràng An
+Vị trí: Ninh Bình
+Loại: Thiên nhiên UNESCO
+Thời gian: 30.000 năm trước
+Mô tả: Di sản hỗn hợp văn hóa và thiên nhiên với hệ thống hang động, đền chùa và cảnh quan karst tuyệt đẹp.
+Đặc điểm: 12 hang động, Đền Trần, Hóa thạch người cổ, Du thuyền sinh thái
+
+DI TÍCH LỊCH SỬ QUAN TRỌNG:
+
+9. Văn Miếu - Quốc Tử Giám
+Vị trí: Đống Đa, Hà Nội
+Thời gian: 1070-nay
+Mô tả: Ngôi đền Khổng Tử đầu tiên và trường đại học đầu tiên của Việt Nam, biểu tượng của nền giáo dục truyền thống.
+Đặc điểm: Đền Khổng Tử, Tiến sĩ bia, Giếng Thiên Quang, Khuê Văn Các
+
+10. Chùa Một Cột
+Vị trí: Ba Đình, Hà Nội
+Thời gian: 1049
+Mô tả: Ngôi chùa độc đáo được xây trên một cột đá giữa hồ sen, biểu tượng của kiến trúc Phật giáo Việt Nam.
+Đặc điểm: Kiến trúc độc đáo, Hồ sen, Tượng Phật Quan Âm, Lịch sử 1000 năm
+
+11. Địa đạo Củ Chi
+Vị trí: Củ Chi, TP. Hồ Chí Minh
+Thời gian: 1948-1975
+Mô tả: Hệ thống địa đạo dài 250km được đào trong thời kỳ kháng chiến, minh chứng cho tinh thần kiên cường của dân tộc.
+Đặc điểm: Hầm ngầm 250km, Bẫy súng, Phòng họp ngầm, Bếp núc không khói
+
+12. Lăng Chủ tịch Hồ Chí Minh
+Vị trí: Ba Đình, Hà Nội
+Thời gian: 1975
+Mô tả: Công trình thiêng liêng nơi an nghỉ của Chủ tịch Hồ Chí Minh, kiến trúc trang nghiêm tại trung tâm quảng trường Ba Đình lịch sử.
+Đặc điểm: Lăng Bác Hồ, Quảng trường Ba Đình, Kiến trúc granite, Nơi đọc Tuyên ngôn độc lập
+
+13. Đền Hùng
+Vị trí: Việt Trì, Phú Thọ
+Thời gian: Thế kỷ 15 (tái xây)
+Mô tả: Quần thể đền thờ các Vua Hùng - tổ tiên dân tộc Việt Nam, nơi tổ chức lễ hội Đền Hùng hàng năm.
+Đặc điểm: Đền Thượng, Đền Trung, Đền Hạ, Lễ hội Đền Hùng
+
+14. Cố đô Hoa Lư
+Vị trí: Ninh Bình
+Thời gian: 968-1009
+Mô tả: Kinh đô đầu tiên của Việt Nam thời Đinh - Lê, nơi lưu giữ nhiều di tích lịch sử quan trọng của dân tộc.
+Đặc điểm: Đền Đinh Tiên Hoàng, Đền Lê Đại Hành, Lăng mộ hoàng gia, Kinh đô cổ
+
+KIẾN TRÚC TÔN GIÁO:
+
+15. Nhà thờ Đức Bà Sài Gòn
+Vị trí: Quận 1, TP. Hồ Chí Minh
+Thời gian: 1863-1880
+Mô tả: Nhà thờ Công giáo nổi tiếng với kiến trúc Gothic Pháp và đôi chuông tháp cao 60m, biểu tượng của TP.HCM.
+Đặc điểm: Kiến trúc Gothic, Đôi chuông tháp, Tượng Đức Mẹ Maria, Gạch đỏ Marseille
+
+16. Tòa Thánh Cao Đài
+Vị trí: Tây Ninh
+Thời gian: 1927
+Mô tả: Trụ sở chính của đạo Cao Đài - tôn giáo độc đáo của Việt Nam, với kiến trúc kết hợp Đông Tây độc đáo.
+Đặc điểm: Thánh điện Cao Đài, Thiên nhãn, Lễ cúng 4 buổi/ngày, Kiến trúc Đông-Tây
+
+17. Chùa Thiên Mụ
+Vị trí: Huế, Thừa Thiên Huế
+Thời gian: 1601
+Mô tả: Chùa cổ bên sông Hương với tháp Phước Duyên 7 tầng biểu tượng của cố đô Huế, nơi lưu giữ nhiều bảo vật Phật giáo.
+Đặc điểm: Tháp Phước Duyên, Sông Hương, Chuông đồng cổ, Kiến trúc Huế
+
+18. Chùa Bái Đính
+Vị trí: Gia Sinh, Ninh Bình
+Thời gian: 2003-2010
+Mô tả: Quần thể chùa lớn nhất Việt Nam với nhiều kỷ lục về tượng Phật, chuông đồng và hệ thống kiến trúc chùa hiện đại.
+Đặc điểm: Tượng Phật khổng lồ, Chuông đồng lớn nhất VN, 500 tượng A-la-hán, Kiến trúc hiện đại
+
+19. Nhà thờ Phát Diệm
+Vị trí: Kim Sơn, Ninh Bình
+Thời gian: 1875-1898
+Mô tả: Nhà thờ Công giáo độc đáo với kiến trúc kết hợp phong cách Tây và truyền thống Việt Nam, được xây bằng đá và gỗ quý.
+Đặc điểm: Kiến trúc Đông-Tây kết hợp, Tháp chuông đá, Nhà thờ bằng gỗ lim, Di sản kiến trúc
+
+20. Phủ Dầy
+Vị trí: Giao Thủy, Nam Định
+Thời gian: Thế kỷ 16
+Mô tả: Đền thờ Thánh Trang Trình Nguyễn Bỉnh Khiêm, nơi thờ cúng vị thánh nổi tiếng với tài tiên tri của dân tộc Việt Nam.
+Đặc điểm: Đền Thánh Trang, Tượng Trạng Trình, Lễ hội Phủ Dầy, Kiến trúc đình chùa
+
+DANH LAM THẮNG CẢNH:
+
+21. Núi Bà Đen
+Vị trí: Tây Ninh
+Thời gian: Từ thế kỷ 19
+Mô tả: Ngọn núi cao nhất Nam Bộ với đền thờ Bà Đen linh thiêng, điểm hành hương nổi tiếng của người miền Nam.
+Đặc điểm: Cao 986m, Đền Bà Đen, Cáp treo, Rừng nguyên sinh
+
+22. Chợ Bến Thành
+Vị trí: Quận 1, TP. Hồ Chí Minh
+Thời gian: 1914
+Mô tả: Chợ truyền thống nổi tiếng với kiến trúc cổ điển và đồng hồ biểu tượng, trung tâm thương mại của Sài Gòn xưa.
+Đặc điểm: Tháp đồng hồ, Kiến trúc Pháp, Chợ truyền thống, Ẩm thực đường phố
+
+23. Đồng bằng sông Cửu Long
+Vị trí: Cần Thơ, An Giang, Đồng Tháp...
+Thời gian: Hình thành hàng nghìn năm
+Mô tả: Vùng đất phù sa màu mỡ với hệ thống sông ngòi chằng chịt, vườn trái cây xanh mướt và đời sống sông nước đặc trưng.
+Đặc điểm: Chợ nổi Cái Răng, Vườn trái cây, Làng nghề truyền thống, Âm thực miền Tây
+
+24. Ruộng bậc thang Sa Pa
+Vị trí: Sa Pa, Lào Cai
+Thời gian: 700 năm tuổi
+Mô tả: Những thửa ruộng bậc thang uốn lượn trên sườn núi, tạo nên bức tranh thiên nhiên tuyệt đẹp của vùng cao Tây Bắc.
+Đặc điểm: Ruộng bậc thang, Fansipan, Làng người H'Mông, Thác Bạc
+
+25. Đỉnh Fansipan
+Vị trí: Sa Pa, Lào Cai
+Thời gian: Hàng triệu năm
+Mô tả: Nóc nhà Đông Dương cao 3.143m với cảnh sắc núi non hùng vĩ và hệ sinh thái đa dạng quý hiếm.
+Đặc điểm: Cao 3.143m, Cáp treo, Rừng nguyên sinh, Thời tiết 4 mùa/ngày
+
+26. Tam Cốc - Bích Động
+Vị trí: Ninh Bình
+Thời gian: Hình thành 250 triệu năm
+Mô tả: Danh thắng với dòng sông Ngô Đồng uốn khúc qua ba hang động đá vôi, được mệnh danh là 'Hạ Long trên cạn'.
+Đặc điểm: Ba hang động, Thuyền tre, Đền Bích Động, Đồng Lâm cổ
+
+27. Cao nguyên đá Đồng Văn
+Vị trí: Hà Giang
+Thời gian: 400-500 triệu năm
+Mô tả: Công viên địa chất toàn cầu với cảnh quan karst độc đáo và văn hóa dân tộc thiểu số đa dạng.
+Đặc điểm: Cao nguyên đá, Đèo Mã Pì Lèng, Dinh thự Vua Mèo, Chợ phiên Đồng Văn
+
+28. Đảo Phú Quốc
+Vị trí: Phú Quốc, Kiên Giang
+Thời gian: Tự nhiên
+Mô tả: Đảo ngọc lớn nhất Việt Nam với bãi biển cát trắng tuyệt đẹp, rừng nguyên sinh và hệ sinh thái biển phong phú.
+Đặc điểm: Bãi Sao, Cáp treo Hon Thom, Chợ đêm Dinh Cậu, Rừng nguyên sinh
+
+29. Đà Lạt
+Vị trí: Đà Lạt, Lâm Đồng
+Thời gian: Thành lập 1893
+Mô tả: Thành phố ngàn hoa với khí hậu mát mẻ quanh năm, kiến trúc Pháp cổ kính và những vườn hoa rực rỡ sắc màu.
+Đặc điểm: Hồ Xuân Hương, Dinh Bảo Đại, Chợ hoa Đà Lạt, Đồi Robin
+
+30. Vịnh Lăng Cô & Đèo Hải Vân
+Vị trí: Thừa Thiên Huế & Đà Nẵng
+Thời gian: Tự nhiên
+Mô tả: Danh thắng với vịnh biển tuyệt đẹp và con đèo hùng vĩ, nơi giao thoa giữa Bắc và Nam Trung Bộ.
+Đặc điểm: Đèo Hải Vân, Vịnh Lăng Cô, Đường ven biển, Cầu vượt hiện đại
+
+31. Hang Sơn Đoòng
+Vị trí: Bố Trạch, Quảng Bình
+Thời gian: 2-5 triệu năm tuổi
+Mô tả: Hang động tự nhiên lớn nhất thế giới với những khối nhũ đá khổng lồ và hệ sinh thái độc đáo bên trong.
+Đặc điểm: Hang lớn nhất thế giới, Khối nhũ đá 80m, Sông ngầm, Hệ sinh thái hang động
+
+32. Cù Lao Chàm
+Vị trí: Hội An, Quảng Nam
+Thời gian: Khu dự trữ từ 2009
+Mô tả: Khu dự trữ sinh quyển thế giới với hệ sinh thái biển đa dạng, rạn san hô và làng chài truyền thống.
+Đặc điểm: Rạn san hô, Khu dự trữ sinh quyển, Làng chài Bài Hương, Lặn ngắm san hô
+
+33. Thác Bản Giốc
+Vị trí: Đầm Thủy, Cao Bằng
+Thời gian: Tự nhiên
+Mô tả: Thác nước lớn nhất Việt Nam tại biên giới Việt-Trung với cảnh quan hùng vĩ và khí thế hoành tráng.
+Đặc điểm: Thác nước lớn nhất VN, Biên giới Việt-Trung, Động Ngườm Ngao, Phong cảnh karst
+
+KIẾN TRÚC HIỆN ĐẠI:
+
+34. Công viên Ấn tượng Hội An
+Vị trí: Hội An, Quảng Nam
+Thời gian: 2018
+Mô tả: Công viên văn hóa hiện đại kết hợp công nghệ và nghệ thuật, tái hiện văn hóa Hội An qua các chương trình biểu diễn đa phương tiện đặc sắc.
+Đặc điểm: Biểu diễn đa phương tiện, Kiến trúc hiện đại, Công nghệ 3D mapping, Văn hóa Hội An
+
+35. Trung tâm Công nghệ FPT Complex
+Vị trí: Hòa Lạc, Hà Nội
+Thời gian: 2006
+Mô tả: Khu phức hợp công nghệ hiện đại với kiến trúc đột phá, là biểu tượng của ngành công nghệ thông tin Việt Nam và trung tâm đào tạo nhân lực IT.
+Đặc điểm: Kiến trúc công nghệ, Trung tâm IT, Đại học FPT, Khu phức hợp hiện đại
+
+36. Trung tâm Nghệ thuật Đương đại The Factory
+Vị trí: Quận 2, TP. Hồ Chí Minh
+Thời gian: 2016
+Mô tả: Không gian nghệ thuật đương đại độc đáo được cải tạo từ nhà máy cũ, trở thành trung tâm sáng tạo và triển lãm nghệ thuật hiện đại của TP.HCM.
+Đặc điểm: Nghệ thuật đương đại, Cải tạo công nghiệp, Triển lãm quốc tế, Không gian sáng tạo
+
+37. Bảo tàng Quảng Ninh
+Vị trí: Hạ Long, Quảng Ninh
+Thời gian: 2013
+Mô tả: Công trình kiến trúc hiện đại với thiết kế độc đáo lấy cảm hứng từ than đá - biểu tượng của Quảng Ninh, trưng bày lịch sử và văn hóa địa phương.
+Đặc điểm: Kiến trúc than đá, Bảo tàng hiện đại, Lịch sử Quảng Ninh, Thiết kế độc đáo
+
+38. Khách sạn InterContinental Danang Sun Peninsula Resort
+Vị trí: Bán đảo Sơn Trà, Đà Nẵng
+Thời gian: 2012
+Mô tả: Resort nghỉ dưỡng sang trọng với kiến trúc hiện đại hòa quyện với thiên nhiên, tọa lạc trên bán đảo Sơn Trà tuyệt đẹp.
+Đặc điểm: Resort 5 sao, Bán đảo Sơn Trà, Kiến trúc sinh thái, Du lịch cao cấp
+
+39. Cầu Vàng – Bà Nà Hills
+Vị trí: Bà Nà Hills, Đà Nẵng
+Thời gian: 2018
+Mô tả: Cây cầu bộ hành nổi tiếng thế giới với thiết kế độc đáo như được nâng đỡ bởi đôi bàn tay khổng lồ, trở thành biểu tượng du lịch Việt Nam.
+Đặc điểm: Cầu Vàng nổi tiếng, Đôi bàn tay khổng lồ, Bà Nà Hills, Biểu tượng du lịch
+
+40. Landmark 81
+Vị trí: Quận Bình Thạnh, TP. Hồ Chí Minh
+Thời gian: 2018
+Mô tả: Tòa nhà chọc trời cao nhất Việt Nam và Đông Nam Á với 81 tầng, biểu tượng của sự phát triển kinh tế và kiến trúc hiện đại của TP.HCM.
+Đặc điểm: Cao nhất Việt Nam, 81 tầng, Trung tâm thương mại, Biểu tượng hiện đại
+
+DI TÍCH LỊCH SỬ QUAN TRỌNG:
+
+9. Văn Miếu - Quốc Tử Giám
+Vị trí: Đống Đa, Hà Nội
+Thời gian: 1070-nay
+Đặc điểm: Đền Khổng Tử, Tiến sĩ bia, Giếng Thiên Quang, Khuê Văn Các
+
+10. Chùa Một Cột
+Vị trí: Ba Đình, Hà Nội
+Thời gian: 1049
+Đặc điểm: Kiến trúc độc đáo, Hồ sen, Tượng Phật Quan Âm, Lịch sử 1000 năm
+
+11. Địa đạo Củ Chi
+Vị trí: Củ Chi, TP. Hồ Chí Minh
+Thời gian: 1948-1975
+Đặc điểm: Hầm ngầm 250km, Bẫy súng, Phòng họp ngầm, Bếp núc không khói
+
+
+
+=================================================================================
+PHẦN LÀNG NGHỀ TRUYỀN THỐNG VIỆT NAM
+=================================================================================
+Tiêu đề: "Làng nghề Truyền thống Việt Nam"
+Mô tả: "Khám phá những làng nghề lâu đời, nơi lưu giữ tinh hoa nghề thủ công truyền thống của đất nước"
+
+16 LÀNG NGHỀ TIÊU BIỂU:
+
+1. LÀNG GỐM BÁT TRÀNG
+Sản phẩm: Gốm sứ cao cấp
+Vị trí: Gia Lâm, Hà Nội
+Lịch sử: 700 năm
+Đặc điểm: Gốm men hỏa biến, Sứ xanh Bát Tràng, Nghệ thuật trang trí
+Sản phẩm đặc biệt: Sản phẩm gốm sứ truyền thống và hiện đại
+
+2. LÀNG LỤA VẠN PHÚC
+Sản phẩm: Lụa tơ tằm
+Vị trí: Hà Đông, Hà Nội
+Lịch sử: 1200 năm truyền thống
+Đặc điểm: Lụa thổ cẩm, Khăn lụa cao cấp, Áo dài truyền thống
+Sản phẩm đặc biệt: Lụa tơ tằm truyền thống Việt Nam
+
+3. LÀNG BẠC ĐỊNH CÔNG
+Sản phẩm: Đồ bạc thủ công
+Vị trí: Hoàng Mai, Hà Nội
+Lịch sử: 400 năm phát triển
+Đặc điểm: Trang sức bạc, Đồ thờ cúng, Khắc chạm tinh xảo
+Sản phẩm đặc biệt: Trang sức và đồ thờ bằng bạc
+
+4. LÀNG TRANH ĐÔNG HỒ
+Sản phẩm: Tranh dân gian
+Vị trí: Bắc Ninh (gần Hà Nội)
+Lịch sử: 300 năm
+Đặc điểm: Tranh Tết, Màu sắc tự nhiên, Ý nghĩa văn hóa
+Sản phẩm đặc biệt: Tranh dân gian truyền thống
+
+5. LÀNG ĐÚC ĐỒNG NGŨ XÃ
+Sản phẩm: Đồ đồng thủ công
+Vị trí: Thường Tín, Hà Nội
+Lịch sử: 600 năm truyền thống
+Đặc điểm: Chuông đồng, Đỉnh thờ, Nghệ thuật khắc chạm
+Sản phẩm đặc biệt: Đồ đồng và đồ thờ cúng
+
+6. LÀNG MAY TRE PHÚ VINH
+Sản phẩm: Đồ mây tre đan
+Vị trí: Chương Mỹ, Hà Nội
+Lịch sử: 500 năm phát triển
+Đặc điểm: Giỏ đựng, Nội thất mây tre, Thân thiện môi trường
+Sản phẩm đặc biệt: Sản phẩm từ mây tre tự nhiên
+
+7. LÀNG THÊU QUẤT ĐỘNG
+Sản phẩm: Thêu tay truyền thống
+Vị trí: Thường Tín, Hà Nội
+Lịch sử: 200 năm lịch sử
+Đặc điểm: Tranh thêu, Quần áo thêu, Kỹ thuật tinh xảo
+Sản phẩm đặc biệt: Thêu tay cao cấp và nghệ thuật
+
+8. LÀNG BÁNH PHU THÊ
+Sản phẩm: Bánh cưới truyền thống
+Vị trí: Diễn Châu, Nam Định
+Lịch sử: 300 năm truyền thống
+Đặc điểm: Bánh phu thê, Bánh in, Hương vị truyền thống
+Sản phẩm đặc biệt: Bánh cưới và bánh lễ
+
+9. LÀNG HƯƠNG QUANG PHÚ CẦU
+Sản phẩm: Hương thờ cúng
+Vị trí: Ứng Hòa, Hà Nội
+Lịch sử: 100 năm phát triển
+Đặc điểm: Hương trầm, Nhang thơm, Sản phẩm thờ cúng
+Sản phẩm đặc biệt: Hương trầm và đồ thờ cúng
+
+10. LÀNG NÓN CHUÔNG
+Sản phẩm: Nón lá truyền thống
+Vị trí: Thanh Oai, Hà Nội
+Lịch sử: 300 năm truyền thống
+Đặc điểm: Nón lá thơm, Kỹ thuật đan tinh xảo, Chống nắng mưa
+Sản phẩm đặc biệt: Nón lá thủ công cao cấp
+
+11. LÀNG CHIẾU CẨM NÊ
+Sản phẩm: Chiếu cói cao cấp
+Vị trí: Đà Nẵng
+Lịch sử: 200 năm lịch sử
+Đặc điểm: Chiếu cói mịn, Họa tiết truyền thống, Mát lạnh tự nhiên
+Sản phẩm đặc biệt: Chiếu cói mịn truyền thống
+
+12. LÀNG GỖ MỸ NGHỆ KIM BỒNG
+Sản phẩm: Đồ gỗ mỹ nghệ
+Vị trí: Hội An, Quảng Nam
+Lịch sử: 500 năm phát triển
+Đặc điểm: Tượng Phật gỗ, Nội thất cổ điển, Khắc chạm tinh xảo
+Sản phẩm đặc biệt: Tượng gỗ và nội thất cao cấp
+
+13. LÀNG LÀM GIẤY DÓ ĐÔNG CAO
+Sản phẩm: Giấy dó thủ công
+Vị trí: Cao Bằng
+Lịch sử: 500 năm truyền thống
+Đặc điểm: Giấy dó truyền thống, Kỹ thuật gia truyền, Nguyên liệu tự nhiên
+Sản phẩm đặc biệt: Giấy dó từ vỏ cây dó cao
+
+14. LÀNG MÚA RỐI NƯỚC ĐẠO THỤC
+Sản phẩm: Múa rối nước truyền thống
+Vị trí: Đông Anh, Hà Nội
+Lịch sử: 800 năm lịch sử
+Đặc điểm: Rối nước truyền thống, Nghệ thuật biểu diễn, Di sản văn hóa
+Sản phẩm đặc biệt: Nghệ thuật múa rối nước cổ truyền
+
+15. LÀNG NGHỀ DÁT VÀNG KIÊU KỴ
+Sản phẩm: Sản phẩm dát vàng
+Vị trí: Gia Lâm, Hà Nội
+Lịch sử: 400 năm truyền thống
+Đặc điểm: Dát vàng truyền thống, Tượng Phật dát vàng, Nghệ thuật trang trí
+Sản phẩm đặc biệt: Nghệ thuật dát vàng thủ công
+
+16. LÀNG GIẤY DÓ YÊN THÁI
+Sản phẩm: Giấy dó truyền thống
+Vị trí: Gia Lâm, Hà Nội
+Lịch sử: 400 năm lịch sử
+Đặc điểm: Giấy thờ, Giấy mỹ thuật, Thân thiện môi trường
+Sản phẩm đặc biệt: Giấy dó thủ công từ cây dó
+
+=================================================================================
+PHẦN ẨM THỰC VIỆT NAM
+=================================================================================
+Tiêu đề: "Ẩm thực Việt Nam"
+Mô tả: "Thưởng thức tinh hoa ẩm thực Việt Nam qua những món ăn đặc sản nổi tiếng"
+
+12 MÓN ĂN ĐẶC SẮC:
+
+1. PHỞ HÀ NỘI
+Xuất xứ: Phố cổ Hà Nội, đầu thế kỷ 20
+Mô tả: Món ăn quốc hồn quốc túy của Việt Nam, với nước dùng trong veo từ xương bò ninh nhiều giờ
+Đặc điểm: Nước dùng trong veo từ xương bò, Bánh phở mềm dai vừa phải, Thịt bò tái hoặc chín, Gia vị đặc trưng hành lá ngò gai
+Địa điểm nổi tiếng: Phở Thìn Lò Đúc, Phở Bát Đàn, Phở Lý Quốc Sư
+Thời gian chế biến: 4-6 giờ nấu nước dùng
+
+2. BÚN CHẢ
+Xuất xứ: Hà Nội, thời Pháp thuộc
+Mô tả: Đặc sản Hà Nội với thịt nướng thơm lừng, bún tươi và nước mắm chua ngọt đặc trưng
+Đặc điểm: Thịt ba rọi nướng than hoa, Chả cá nướng giòn, Nước mắm pha chua ngọt, Bún tươi mềm rau thơm
+Địa điểm nổi tiếng: Bún chả Đắc Kim, Bún chả Hương Liên, Bún chả 34 Hàng Than
+Thời gian chế biến: 2-3 giờ
+
+3. CỐM LÀNG VÒNG
+Xuất xứ: Làng Vòng, Từ Liêm, Hà Nội
+Mô tả: Đặc sản mùa thu Hà Nội, được làm từ lúa tám xanh non, có hương vị thanh mát đặc trưng
+Đặc điểm: Lúa tám xanh chọn lọc, Màu xanh tự nhiên, Vị ngọt thanh thơm dịu, Chỉ có vào mùa thu
+Địa điểm nổi tiếng: Làng Vòng truyền thống, Cốm Vòng phố Hàng Than, Các cửa hàng đặc sản
+Thời gian chế biến: Quy trình phức tạp
+
+4. BÁNH CUỐN THANH TRÌ
+Xuất xứ: Thanh Trì, Hà Nội
+Mô tả: Bánh cuốn mỏng như tơ, nhân thịt băm và mộc nhĩ, ăn kèm chả lụa và nước mắm pha
+Đặc điểm: Bánh mỏng như màng, Nhân thịt băm mộc nhĩ, Chả lụa thơm ngon, Nước mắm pha đặc biệt
+Địa điểm nổi tiếng: Bánh cuốn Thanh Trì gốc, Bánh cuốn bà Hoành, Làng Bánh cuốn Thanh Trì
+Thời gian chế biến: 3-4 giờ
+
+5. CÀ PHÊ TRỨNG
+Xuất xứ: Hà Nội, những năm 1940
+Mô tả: Sáng tạo độc đáo của Hà Nội, cà phê đen đắng kết hợp với lớp kem trứng béo ngậy
+Đặc điểm: Cà phê phin truyền thống, Kem trứng đánh bông, Vị đắng đặc trưng pha ngọt béo, Uống nóng hoặc lạnh
+Địa điểm nổi tiếng: Café Giảng, Café Đinh, Loading T Café
+Thời gian chế biến: 30 phút
+
+6. BÁNH MÌ VIỆT NAM
+Xuất xứ: Việt Nam, thời Pháp thuộc
+Mô tả: Tinh hoa ẩm thực kết hợp Đông Tây, bánh mì giòn với nhân đa dạng từ pate đến thịt nướng
+Đặc điểm: Bánh mì giòn ngoài mềm trong, Pate gan tự làm, Thịt nguội và rau thơm, Nước sốt đặc biệt
+Địa điểm nổi tiếng: Bánh mì Phượng, Bánh mì Huynh Hoa, Bánh mì Như Lan
+Thời gian chế biến: 1-2 giờ
+
+7. BÚN BÒ HUẾ
+Xuất xứ: Huế, cố đô Việt Nam
+Mô tả: Đặc sản miền Trung với nước dùng đậm đà, cay nồng từ sả và tịt, có hương vị đặc trưng khó quên
+Đặc điểm: Nước dùng từ xương heo bò, Gia vị sả tịt đặc trưng, Bún to dai, Thịt bò chả cua giò heo
+Địa điểm nổi tiếng: Bún bò Huế Bà Tuyết, Bún bò Huế Đông Ba, Quán bún bò cổ Huế
+Thời gian chế biến: 4-5 giờ
+
+8. BÁNH XÈO (NAM BỘ)
+Xuất xứ: Miền Nam Việt Nam
+Mô tả: Bánh xèo miền Nam với lớp vỏ giòn vàng nghệ, nhân tôm thịt và giá đỗ, ăn kèm rau sống
+Đặc điểm: Bánh to mỏng giòn, Màu vàng từ nghệ tươi, Nhân tôm thịt giá đỗ, Ăn cuốn với rau sống
+Địa điểm nổi tiếng: Bánh xèo Mười Xiềm, Bánh xèo 46A Đinh Công Tráng, Bánh xèo Bà Dưỡng
+Thời gian chế biến: 2-3 giờ
+
+9. NEM RÁN / CHẢ GIÒ
+Xuất xứ: Miền Bắc và Nam Việt Nam
+Mô tả: Món khai vị truyền thống với vỏ bánh tráng giòn, nhân thịt, tôm, mộc nhĩ thơm ngon
+Đặc điểm: Vỏ bánh tráng giòn rụm, Nhân thịt tôm mộc nhĩ, Chiên vàng đều, Ăn kèm nước mắm chua ngọt
+Địa điểm nổi tiếng: Nem rán Hàng Mành, Chả giò Sài Gòn, Nem Nướng Ninh Hòa
+Thời gian chế biến: 2 giờ
+
+10. BÁNH CHƯNG – BÁNH TÉT
+Xuất xứ: Truyền thống dân tộc Việt
+Mô tả: Đặc sản Tết truyền thống, biểu tượng văn hóa với ý nghĩa sâu sắc về lòng hiếu thảo
+Đặc điểm: Gạo nếp trắng, Đậu xanh thịt lợn, Lá dong lá chuối, Ninh trong 12-14 giờ
+Địa điểm nổi tiếng: Bánh chưng làng Tranh Khúc, Bánh tét miền Tây, Bánh chưng Cổ Loa
+Thời gian chế biến: 2-3 ngày
+
+11. GỎI CUỐN (MIỀN NAM)
+Xuất xứ: Miền Nam Việt Nam
+Mô tả: Món ăn nhẹ tươi mát với bánh tráng trong suốt cuốn tôm, thịt và rau thơm tươi xanh
+Đặc điểm: Bánh tráng mỏng trong, Tôm thịt luộc, Rau thơm tươi xanh, Tương đậu phộng đặc biệt
+Địa điểm nổi tiếng: Gỏi cuốn Sài Gòn, Gỏi cuốn Chợ Lớn, Gỏi cuốn Nguyễn Thiện Thuật
+Thời gian chế biến: 30-45 phút
+
+12. CAO LẦU (HỘI AN)
+Xuất xứ: Hội An, Quảng Nam
+Mô tả: Đặc sản độc quyền Hội An với sợi mì dai, thịt heo quay và rau thơm, chỉ có tại phố cổ
+Đặc điểm: Sợi mì cao lầu đặc biệt, Nước từ giếng Ba Lễ, Thịt heo quay giòn, Rau sống bánh tráng nướng
+Địa điểm nổi tiếng: Cao lầu Thành, Cao lầu Bà Bé, Cao lầu Hội An cổ truyền
+Thời gian chế biến: Bí quyết gia truyền
+
+=================================================================================
+PHẦN CHUYỂN TIẾP TỪ LỊCH SỬ ĐẾN GIÁO DỤC
+=================================================================================
+Tiêu đề: "Từ Lịch sử đến Giáo dục"
+
+THÔNG ĐIỆP CHUYỂN TIẾP:
+1. "Từ mạch nguồn văn hóa ngàn đời, Đại học Mở Hà Nội không chỉ là nơi tiếp nối truyền thống, mà còn là bệ phóng cho thế hệ trẻ chạm tới tương lai."
+
+2. "Với sứ mệnh giáo dục khai phóng, nhà trường hun đúc tinh thần học hỏi không giới hạn qua 5 triết lý 'Mở' đặc sắc của HOU."
+
+3. "Đặc biệt, Khoa Kinh tế là nơi kết nối giữa sách vở và thực tiễn, giữa khát vọng và hành động – nơi tri thức được 'kích hoạt' để tạo nên giá trị thật sự cho xã hội."
+
+=================================================================================
+5 TRIẾT LÝ "MỞ" CỦA ĐẠI HỌC MỞ HÀ NỘI
+=================================================================================
+
+1. MỞ CƠ HỘI
+Mô tả: Tạo cơ hội công bằng cho mọi người được tiếp cận giáo dục với chất lượng tốt, xóa bỏ mọi rào cản, đáp ứng nhu cầu học tập đa dạng, đặc biệt qua hình thức đào tạo từ xa, đào tạo đa ngành, đa trình độ.
+
+2. MỞ TRÁI TIM
+Mô tả: Lan tỏa giá trị nhân văn trong giáo dục, thể hiện lòng nhân ái, sự sẻ chia và hỗ trợ cộng đồng, giúp người học phát triển không chỉ về tri thức mà còn về phẩm chất đạo đức.
+
+3. MỞ TRÍ TUỆ
+Mô tả: Kiến tạo tri thức, phát triển toàn diện con người bằng cách tập trung vào việc khơi nguồn, định hướng và tạo môi trường để người học thỏa sức khám phá và sáng tạo.
+
+4. MỞ TẦM NHÌN
+Mô tả: Phát triển tư duy sáng tạo, nâng cao khả năng ứng phó và thích ứng với xu thế thời đại, mở rộng nhận thức nhằm đáp ứng nhu cầu xã hội hiện đại.
+
+5. MỞ TƯƠNG LAI
+Mô tả: Chủ động hội nhập, tạo dựng tương lai bền vững cho người học thông qua việc tích luỹ kiến thức, kỹ năng cá nhân hóa học tập liên tục suốt đời nhằm xây dựng xã hội học tập.
+
+=================================================================================
+KHOA KINH TẾ - NƠI KẾT NỐI TƯƠNG LAI
+=================================================================================
+Mô tả: Với tầm nhìn hiện đại và phương pháp giảng dạy tiên tiến, Khoa Kinh tế của Đại Học Mở Hà Nội không chỉ truyền đạt kiến thức mà còn rèn luyện tư duy phản biện, kỹ năng thực hành và khả năng thích ứng với thị trường lao động năng động.
+
+SỐ LIỆU NỔI BẬT:
+- 5 chương trình đào tạo
+- 3000+ sinh viên theo học  
+- ~95% tỷ lệ có việc làm
+
+=================================================================================
+CÁC CHƯƠNG TRÌNH ĐÀO TẠO CHI TIẾT
+=================================================================================
+
+1. Thiết kế Đồ họa (7210403)
+Khoa: Tạo dáng công nghiệp
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT471/
+Mô tả: Thiết kế đồ họa là sự kết hợp giữa ý tưởng, sáng tạo, thẩm mỹ và công nghệ thông tin để tạo ra các thông điệp và tác phẩm nghệ thuật phục vụ các mục đích kinh doanh, thương mại, công nghiệp.
+Cơ hội việc làm: Chuyên viên thiết kế tại công ty quảng cáo, thiết kế, truyền thông; Tự thành lập doanh nghiệp thiết kế; Giảng dạy và nghiên cứu.
+Thành Tựu: Hơn 98% sinh viên có việc làm ngay trong năm đầu tiên sau khi tốt nghiệp và làm đúng chuyên môn được đào tạo.
+Thông tin thêm: Khoa Tạo dáng công nghiệp có 30 năm kinh nghiệm đào tạo, với hơn 4000 cử nhân thiết kế và kiến trúc sư tốt nghiệp.
+
+2. Thiết kế Thời trang (7210404)
+Khoa: Tạo dáng công nghiệp
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT472/
+Mô tả: Thiết kế Thời trang là một môn nghệ thuật ứng dụng, đòi hỏi sự sáng tạo không ngừng để tạo ra các kiểu dáng trang phục và phụ kiện phù hợp với văn hóa, xã hội và thời đại. Ngành học này trang bị cho sinh viên kiến thức lý thuyết và kỹ năng thực hành trong thiết kế, kết hợp giữa mỹ thuật, thương mại và các kỹ năng mềm.
+Cơ hội việc làm: Làm việc tại các doanh nghiệp may, công ty thiết kế thời trang, cơ sở sản xuất may mặc; Thành lập doanh nghiệp riêng về thời trang; Giảng dạy và nghiên cứu tại các trường đại học, cao đẳng có đào tạo ngành thiết kế thời trang.
+Thành Tựu: Hơn 98% sinh viên có việc làm trong năm đầu tiên sau khi tốt nghiệp và làm đúng chuyên môn. Nhiều cựu sinh viên thành đạt, trở thành nhà thiết kế nổi tiếng như NTK Đỗ Ngọc Thành (Chic-Land), NTK Hà Duy (Á quân 'Ngôi sao thiết kế 2013'), và NTK Đỗ Thị Vân Anh (VanAnhScarlet).
+Thông tin thêm: Khoa Tạo dáng công nghiệp có 30 năm kinh nghiệm đào tạo, với hơn 4000 cử nhân thiết kế và kiến trúc sư tốt nghiệp. Các ngành đào tạo khác của khoa bao gồm Kiến trúc, Thiết kế Đồ họa và Thiết kế Nội thất.
+
+3. Ngôn ngữ Anh (7220201)
+Khoa: Tiếng Anh
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT473/
+Mô tả: Ngành Ngôn ngữ Anh có nhiệm vụ đào tạo cử nhân tiếng Anh với đầy đủ kiến thức, kỹ năng cần thiết để làm việc hiệu quả trong các lĩnh vực sử dụng tiếng Anh. Cử nhân tốt nghiệp sẽ có khả năng biên phiên dịch, giảng dạy cũng như am hiểu văn hóa, xã hội các nước nói tiếng Anh.
+Cơ hội việc làm: Cử nhân tốt nghiệp có thể làm việc trong các cơ quan nhà nước, doanh nghiệp, tổ chức quốc tế và các cơ sở giáo dục. Nhiều cựu sinh viên thành công trong các lĩnh vực biên phiên dịch, giảng dạy và nghiên cứu.
+Thành Tựu: Hơn 98% sinh viên tìm được việc làm trong năm đầu tiên sau khi tốt nghiệp. Nhiều cựu sinh viên đã trở thành những chuyên gia hàng đầu trong ngành, có đóng góp đáng kể cho lĩnh vực ngôn ngữ.
+Thông tin thêm: Khoa Tiếng Anh không chỉ chú trọng đào tạo kiến thức mà còn tổ chức nhiều hoạt động nghiên cứu khoa học và các hoạt động văn hóa, thể thao cho sinh viên. Sinh viên có cơ hội tham gia vào các câu lạc bộ và hoạt động ngoại khóa đa dạng.
+
+4. Ngôn ngữ Trung Quốc (7220204)
+Khoa: Tiếng Trung Quốc
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT475/
+Mô tả: Ngành Ngôn ngữ Trung Quốc cung cấp cho sinh viên kiến thức về ngôn ngữ, văn hóa, văn học và đất nước học Trung Quốc. Sinh viên được đào tạo trong các lĩnh vực biên, phiên dịch và các kỹ năng giao tiếp chuyên nghiệp.
+Cơ hội việc làm: Cử nhân Ngôn ngữ Trung Quốc có thể làm việc tại các cơ quan nhà nước, doanh nghiệp liên quan đến đối ngoại, truyền thông, giáo dục và du lịch. Cơ hội nghề nghiệp đa dạng từ biên phiên dịch, giảng dạy đến làm việc trong các tổ chức quốc tế.
+Thành Tựu: Hơn 98% sinh viên tốt nghiệp tìm được việc làm ngay năm đầu tiên và làm đúng chuyên môn. Nhiều cựu sinh viên thành công với các vị trí quan trọng trong ngành biên phiên dịch và giáo dục.
+Thông tin thêm: Khoa Tiếng Trung Quốc có chương trình 'Chinese Camp' tại Đại học Quảng Tây - Trung Quốc, tạo cơ hội trải nghiệm văn hóa. Sinh viên được khuyến khích tham gia các hoạt động nghiên cứu và các diễn đàn học thuật.
+
+5. Quản trị Kinh doanh (7340101)
+Khoa: Kinh tế
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT476/
+Mô tả: Ngành Quản trị Kinh doanh được thiết kế dành cho những sinh viên năng động, có ý chí làm giàu bằng con đường chính đáng, với mục tiêu khai phá tiềm năng trong quản lý và tổ chức hoạt động sản xuất, kinh doanh. Chương trình đào tạo tập trung vào ứng dụng thực tiễn, chuẩn bị cho sinh viên những kiến thức vững vàng về kinh tế, quản trị doanh nghiệp.
+Cơ hội việc làm: Cử nhân Quản trị Kinh doanh có thể làm việc trong nhiều lĩnh vực như bán hàng, quản trị nguồn nhân lực, marketing, tài chính và quản lý chuỗi cung ứng. Những vị trí công việc phổ biến bao gồm nhân viên kinh doanh, giám sát bán hàng, chuyên viên marketing, phân tích tài chính và quản lý dự án.
+Thành Tựu: Hơn 98% sinh viên tốt nghiệp có việc làm trong năm đầu tiên và đảm bảo làm đúng chuyên môn. Sinh viên ngành Quản trị Kinh doanh đã đạt giải Nhất tại cuộc thi HOU SV Startup 2023, tạo dấu ấn trong cộng đồng khởi nghiệp.
+Thông tin thêm: Ngành Quản trị Kinh doanh có nhiều hoạt động ngoại khóa và tọa đàm hướng nghiệp, giúp sinh viên mở rộng mạng lưới và phát triển kỹ năng cá nhân. Bạn có thể tham gia nhóm Zalo của ngành để được tư vấn và giải đáp thắc mắc.
+
+6. Thương mại điện tử (7340122)
+Khoa: Kinh tế
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT477/
+Mô tả: Ngành Thương mại điện tử cung cấp cho sinh viên kiến thức, kỹ năng, năng lực tự chủ và trách nhiệm cần thiết để hình thành ý tưởng, thiết kế, triển khai và vận hành quá trình kinh doanh thông qua các phương tiện điện tử. Chương trình đào tạo được thiết kế theo hướng ứng dụng, trang bị cho người học các kiến thức nền tảng về kinh tế số, kiến thức chuyên sâu về thương mại điện tử.
+Cơ hội việc làm: Sinh viên tốt nghiệp có thể đảm nhận các vị trí như: Chuyên viên/Quản lý Marketing - kinh doanh trực tuyến, Chuyên viên tư vấn và triển khai dự án TMĐT, Chuyên viên vận hành hệ thống TMĐT, Chuyên viên tại các cơ quan nhà nước, Giảng viên nhà nghiên cứu, Doanh nhân khởi nghiệp.
+Thành Tựu: Chương trình học kết hợp giữa kinh doanh và công nghệ thông tin. Cơ hội tham gia các buổi Job tour, hoạt động ngoại khóa và seminar. Tham gia các câu lạc bộ như CLB Logistics, CLB TMĐT, CLB truyền thông - sự kiện, Econ club.
+Thông tin thêm: Cung cấp kiến thức về kinh tế số và thương mại điện tử. Trang bị kỹ năng xây dựng và vận hành hệ thống kinh doanh trực tuyến. Phát triển tinh thần khởi nghiệp, tư duy đổi mới sáng tạo và năng lực số.
+
+7. Tài chính - Ngân hàng (7340201)
+Khoa: Tài chính - Ngân hàng
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT478/
+Mô tả: Ngành Tài chính - Ngân hàng là lĩnh vực liên quan đến các dịch vụ tài chính, lưu thông và vận hành tiền tệ. Chương trình đào tạo nhằm phát triển năng lực nghề nghiệp và kiến thức chuyên sâu trong các lĩnh vực như Ngân hàng, Tài chính bảo hiểm, và Phân tích tài chính, giúp sinh viên đáp ứng nhu cầu trong bối cảnh hội nhập quốc tế.
+Cơ hội việc làm: Sinh viên tốt nghiệp có thể làm việc trong nhiều lĩnh vực như: Chuyên viên tín dụng ngân hàng, kế toán, kiểm toán, Nhân viên kinh doanh ngoại tệ và chuyên viên tài chính, Giảng viên ngành Tài chính - Ngân hàng.
+Thành Tựu: Phát triển năng lực nghề nghiệp vững vàng trong lĩnh vực Tài chính - Ngân hàng. Khuyến khích học tập, nghiên cứu và sáng tạo trong ngành. Tham gia giải quyết các vấn đề kinh tế - xã hội, hướng đến phát triển bền vững.
+Thông tin thêm: Ngành có nhiều hoạt động ngoại khóa và tọa đàm hướng nghiệp, hỗ trợ sinh viên mở rộng mạng lưới và phát triển kỹ năng cá nhân. Sinh viên được trang bị kiến thức về phân tích tài chính, đầu tư và các kỹ năng mềm cần thiết.
+
+8. Bảo hiểm (7340204)
+Khoa: Tài chính - Ngân hàng
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT479/
+Mô tả: Ngành Bảo hiểm ra đời trong nền kinh tế hội nhập, giúp con người an tâm hơn về mặt tinh thần và thể xác, giảm thiểu rủi ro trong cuộc sống và công việc. Ngành này đóng vai trò quan trọng trong ổn định kinh tế, kiềm chế lạm phát và cân đối nền kinh tế.
+Cơ hội việc làm: Sinh viên tốt nghiệp có thể làm việc tại: Các công ty bảo hiểm gốc, công ty tái bảo hiểm, môi giới bảo hiểm, Các doanh nghiệp, tổ chức kinh tế - xã hội, Các cơ quan quản lý nhà nước về hoạt động bảo hiểm, Các cơ sở đào tạo và viện nghiên cứu, Thành lập công ty trong lĩnh vực phụ trợ bảo hiểm.
+Thành Tựu: Đào tạo người học có năng lực nghề nghiệp vững vàng, phù hợp với bối cảnh hội nhập quốc tế. Khuyến khích học tập, nghiên cứu và sáng tạo để phát triển sự nghiệp. Đóng góp vào giải quyết các vấn đề kinh tế - xã hội, hướng đến sự phát triển bền vững.
+Thông tin thêm: Sinh viên được trang bị kiến thức về bảo hiểm xã hội và thương mại, chính sách nhà nước, quản lý tài chính - kế toán, pháp luật bảo hiểm. Phát triển kỹ năng phân tích, tổng hợp, đánh giá và hoạch định chính sách liên quan đến bảo hiểm.
+
+9. Kế toán (7340301)
+Khoa: Kinh tế
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT480/
+Mô tả: Ngành Kế toán trang bị cho sinh viên kiến thức, kỹ năng và năng lực để vận dụng thành thạo các nguyên tắc kế toán, luật, chuẩn mực kế toán Việt Nam và quốc tế, chế độ kế toán Việt Nam, phân tích tài chính trong điều kiện chuyển đổi số.
+Cơ hội việc làm: Sinh viên tốt nghiệp có thể đảm nhận các vị trí như: Kế toán trưởng, Kế toán tổng hợp, Kế toán thanh toán, Kế toán công nợ, Kế toán tài sản cố định, Kế toán vật tư - sản phẩm - hàng hóa, Thủ quỹ, Kế toán thuế, Kiểm toán viên, Chuyên viên phân tích tài chính, Cán bộ giảng dạy và nghiên cứu.
+Thành Tựu: Sinh viên được tham gia cuộc thi 'Đấu trường Kế toán'. Chương trình đào tạo cung cấp kiến thức về các nguyên tắc kế toán cơ bản, luật và chuẩn mực kế toán Việt Nam và quốc tế. Sinh viên được tham quan doanh nghiệp (Job Tour) và tham gia các hoạt động ngoại khóa.
+Thông tin thêm: Chương trình đào tạo theo hướng ứng dụng, trang bị kiến thức về kế toán tài chính, kế toán quản trị, kiểm toán, thuế và phân tích tài chính. Sinh viên được thực hành trên các phần mềm kế toán và tham gia các câu lạc bộ chuyên môn.
+
+10. Luật (7380101)
+Khoa: Luật
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT481/
+Mô tả: Ngành Luật trang bị cho người học kiến thức cơ bản và toàn diện về pháp luật, các vấn đề chính trị, kinh tế, văn hoá, xã hội liên quan. Sinh viên nắm vững nền tảng lý luận và thực trạng pháp luật, phương pháp tư duy pháp lý, ý thức pháp luật, kĩ năng nghiên cứu và áp dụng pháp luật để giải quyết các vấn đề pháp lý phát sinh trong thực tiễn.
+Cơ hội việc làm: Thành lập doanh nghiệp cung cấp dịch vụ pháp lý, làm việc trong hệ thống cơ quan nhà nước (Quốc hội, Hội đồng nhân dân, Chính phủ, các Bộ, Tòa án, Viện kiểm sát) với vai trò Thư ký Tòa án, Thẩm tra viên, Thẩm phán, Kiểm sát viên. Làm việc cho văn phòng luật, công ty luật, hành nghề luật sư độc lập, luật sư nội bộ doanh nghiệp, giảng dạy và nghiên cứu khoa học pháp lý.
+Thành Tựu: Chương trình đào tạo đổi mới theo hướng tăng cường kiến thức thực tiễn và thời gian thực tập tại các cơ quan nhà nước và doanh nghiệp. Đảm bảo sinh viên sau khi tốt nghiệp có thể thực hiện các công việc liên quan đến lĩnh vực pháp luật, góp phần nâng cao chất lượng nguồn nhân lực pháp luật.
+Thông tin thêm: Chương trình đào tạo đáp ứng nhu cầu phát triển của đất nước và hội nhập quốc tế. Sinh viên được trang bị kiến thức vững vàng về lý luận và thực tiễn pháp luật, phương pháp tư duy pháp lý và kỹ năng áp dụng pháp luật trong thực tiễn.
+
+11. Luật Kinh tế (7380107)
+Khoa: Luật
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT482/
+Mô tả: Ngành Luật Kinh tế trang bị cho sinh viên kiến thức cơ bản và toàn diện về pháp luật, các vấn đề chính trị, kinh tế, văn hoá, xã hội liên quan. Sinh viên nắm vững nền tảng lý luận và thực trạng pháp luật kinh tế, phương pháp tư duy pháp lý, ý thức pháp luật, kĩ năng nghiên cứu và áp dụng pháp luật để giải quyết các vấn đề pháp lý trong lĩnh vực kinh tế.
+Cơ hội việc làm: Luật sư tại các văn phòng luật, công ty luật, cố vấn pháp lý cho doanh nghiệp, chuyên viên pháp chế tại các cơ quan nhà nước, tòa án, viện kiểm sát; Làm việc tại các ngân hàng, tổ chức tài chính, doanh nghiệp; Giảng dạy và nghiên cứu khoa học pháp lý.
+Thành Tựu: Chương trình đào tạo chú trọng thực tiễn và ứng dụng, tăng cường thời gian thực tập tại các cơ quan, doanh nghiệp. Đảm bảo sinh viên có khả năng giải quyết các vấn đề pháp lý phức tạp trong lĩnh vực kinh tế.
+Thông tin thêm: Ngành Luật Kinh tế có vai trò quan trọng trong nền kinh tế thị trường, đặc biệt trong bối cảnh hội nhập quốc tế. Sinh viên được trang bị kiến thức chuyên sâu về luật thương mại, luật doanh nghiệp, luật đầu tư và các quy định pháp lý liên quan đến hoạt động kinh tế.
+
+12. Luật Quốc tế (7380108)
+Khoa: Luật
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT483/
+Mô tả: Ngành Luật Quốc tế trang bị cho người học kiến thức cơ bản và toàn diện về pháp luật, các vấn đề chính trị, kinh tế, văn hoá, xã hội có liên quan. Sinh viên nắm vững nền tảng lý luận và thực trạng pháp luật quốc tế, phương pháp tư duy pháp lý, ý thức pháp luật, kĩ năng nghiên cứu, áp dụng pháp luật để giải quyết các vấn đề pháp lý trong các lĩnh vực của đời sống quốc tế.
+Cơ hội việc làm: Thành lập doanh nghiệp cung cấp dịch vụ pháp lý, làm việc trong cơ quan nhà nước, sứ quán Việt Nam tại nước ngoài, công ty nước ngoài tại Việt Nam, cơ quan quốc tế. Làm việc cho văn phòng luật, công ty luật liên quan đến nhà đầu tư nước ngoài, hành nghề luật sư, công tác pháp chế trong doanh nghiệp xuất nhập khẩu, doanh nghiệp có vốn đầu tư nước ngoài, giảng dayy và nghiên cứu luật quốc tế.
+Thành Tựu: Chương trình đào tạo đổi mới theo hướng tăng cường kiến thức thực tiễn, tăng cường thời gian thực tập tại các cơ quan hành nghề luật và tổ chức quốc tế. Đào tạo sinh viên có khả năng giải quyết các vấn đề pháp lý trong lĩnh vực quốc tế.
+Thông tin thêm: Sinh viên được trang bị kiến thức chuyên sâu về pháp luật quốc tế, có cơ hội làm việc tại các tổ chức quốc tế, sứ quán và các doanh nghiệp có vốn đầu tư nước ngoài. Chương trình đào tạo phù hợp với xu hướng hội nhập quốc tế.
+
+13. Công nghệ Sinh học (7420201)
+Khoa: Viện Công nghệ Sinh học và Công nghệ Thực phẩm
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT484/
+Mô tả: Ngành Công nghệ Sinh học đào tạo kỹ sư chất lượng cao, có kiến thức toàn diện về kỹ thuật công nghệ tiên tiến, kỹ năng thực tiễn vững vàng và năng lực tự chủ, sáng tạo khởi nghiệp. Học phí thấp với cơ hội giành học bổng và thực tập tại các nước như Nhật Bản, Hàn Quốc, Israel.
+Cơ hội việc làm: Công nghiệp thực phẩm (rượu bia, nước giải khát, chế biến thực phẩm), Y-dược (thực phẩm chức năng, vaccine, dược phẩm, xét nghiệm), Môi trường (xử lý chất thải, chế phẩm sinh học), Nông nghiệp (nhân giống cây trồng, thuốc trừ sâu, phân bón vi sinh), Sản xuất mỹ phẩm và kiểm định chất lượng.
+Thành Tựu: Giới thiệu nhiều cơ hội việc làm tại các tập đoàn lớn, cơ hội học tập nâng cao tại nước ngoài với học bổng giá trị. Đạt nhiều giải thưởng sinh viên nghiên cứu khoa học và khởi nghiệp. Thực tập tại doanh nghiệp uy tín với mức lương cạnh tranh.
+Thông tin thêm: Hệ thống phòng thí nghiệm hiện đại phục vụ nghiên cứu. Sinh viên được tham gia kiến tập, thực hành và đào tạo khởi nghiệp tại nước ngoài, cùng các hoạt động trải nghiệm văn hoá, giao lưu quốc tế và ngoại khóa đa dạng.
+
+14. Công nghệ Thông tin (7480201)
+Khoa: Công nghệ Thông tin
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT485/
+Mô tả: Công nghệ Thông tin (CNTT) là ngành học liên quan đến việc sử dụng máy tính, phần mềm, mạng và hệ thống dữ liệu để thu thập, xử lý, lưu trữ, bảo mật và truyền tải thông tin. Ngành cung cấp cho sinh viên nền tảng vững chắc về công nghệ phần mềm, mạng máy tính và an toàn hệ thống, hệ thống thông tin, trí tuệ nhân tạo.
+Cơ hội việc làm: Phát triển phần mềm, Kiểm thử và đảm bảo chất lượng phần mềm, Hỗ trợ kỹ thuật, Phân tích nghiệp vụ và thiết kế hệ thống, Thiết lập và quản trị hệ thống mạng, Quản trị cơ sở dữ liệu, Phát triển hệ thống thông minh/trí tuệ nhân tạo, Nghiên cứu người dùng, Thiết kế sản phẩm kỹ thuật số, Đảm bảo an ninh mạng và an toàn hệ thống.
+Thành Tựu: Sinh viên được đào tạo với năng lực áp dụng nguyên tắc kỹ thuật, khoa học và toán học để mô hình hóa và thiết kế hệ thống CNTT. Có khả năng phân tích, thiết kế, triển khai và đánh giá hệ thống đáp ứng yêu cầu thực tiễn bằng các công cụ, kỹ thuật hiện đại.
+Thông tin thêm: Thời gian đào tạo: 3 - 4,5 năm. Bằng cấp: Cử nhân/Kỹ sư Công nghệ Thông tin. Hình thức đào tạo theo tín chỉ, sinh viên có thể lựa chọn thời gian học, giảng viên, tiến độ, chuyên ngành phù hợp với năng lực và nguyện vọng.
+
+15. Công nghệ Kỹ thuật Điện tử - Viễn thông (7510302)
+Khoa: Điện - Điện tử
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT486/
+Mô tả: Ngành Công nghệ Kỹ thuật Điện tử - Viễn thông là lĩnh vực nghiên cứu, thiết kế và ứng dụng các hệ thống điện tử, viễn thông và công nghệ truyền thông hiện đại. Ngành đóng vai trò quan trọng trong sự phát triển của công nghiệp 4.0, thúc đẩy các lĩnh vực như trí tuệ nhân tạo (AI), Internet vạn vật (IoT), mạng truyền thông thế hệ mới (5G, 6G) và tự động hóa.
+Cơ hội việc làm: Kỹ sư thiết kế và phát triển hệ thống viễn thông, Kỹ sư nghiên cứu và phát triển (R&D) tại các tập đoàn công nghệ, Chuyên gia thiết kế vi mạch, hệ thống nhúng, xử lý tín hiệu số, Kỹ sư mạng và bảo mật thông tin viễn thông, Giảng viên, nhà nghiên cứu. Mức thu nhập từ 10-20 triệu đồng/tháng cho sinh viên mới ra trường, có thể lên tới 50-100 triệu đồng/tháng cho các chuyên gia có kinh nghiệm.
+Thành Tựu: Ngành có ứng dụng rộng rãi trong công nghệ không dây và mạng viễn thông, trí tuệ nhân tạo và IoT, công nghệ điều khiển và tự động hóa, hệ thống nhúng và thiết kế vi mạch. Thị trường viễn thông toàn cầu được dự báo sẽ đạt hơn 3.5 nghìn tỷ USD vào năm 2026, với tốc độ tăng trưởng hàng năm trên 5.4%.
+Thông tin thêm: Chương trình đào tạo trang bị kiến thức về kỹ thuật mạch điện tử và hệ thống nhúng, hệ thống viễn thông và truyền dẫn không dây, thiết kế vi mạch (VLSI), xử lý tín hiệu số và thị giác máy tính, công nghệ truyền thông quang học và vệ tinh, ứng dụng AI trong viễn thông, mạng di động 4G/5G/6G và IoT.
+
+16. Công nghệ Kỹ thuật Điều khiển và Tự động hóa (7510303)
+Khoa: Điện - Điện tử
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT487/
+Mô tả: Ngành Công nghệ Kỹ thuật Điều khiển và Tự động hóa là một trong những lĩnh vực mũi nhọn của cuộc Cách mạng công nghiệp 4.0, đóng vai trò quan trọng trong việc hiện đại hóa sản xuất và tối ưu hóa quy trình vận hành trong nhiều lĩnh vực khác nhau. Chương trình đào tạo tập trung vào nghiên cứu, thiết kế và ứng dụng các hệ thống điều khiển thông minh, robot công nghiệp, trí tuệ nhân tạo (AI) và Internet vạn vật (IoT).
+Cơ hội việc làm: Kỹ sư tự động hóa và điều khiển quá trình tại các nhà máy sản xuất, Kỹ sư thiết kế hệ thống robot và AI trong sản xuất, Kỹ sư lập trình PLC, SCADA, IoT cho hệ thống điều khiển công nghiệp, Kỹ sư nghiên cứu và phát triển tại các tập đoàn công nghệ lớn, Chuyên gia tư vấn và triển khai giải pháp tự động hóa trong doanh nghiệp, Giảng viên, nhà nghiên cứu tại các trường đại học và viện nghiên cứu. Mức thu nhập trung bình từ 12-30 triệu đồng/tháng đối với sinh viên mới ra trường, có thể lên đến 50-100 triệu đồng/tháng cho chuyên gia có kinh nghiệm.
+Thành Tựu: Thị trường tự động hóa toàn cầu dự kiến đạt hơn 400 tỷ USD vào năm 2027, với mức tăng trưởng 8-10% mỗi năm. Tại Việt Nam, ngành công nghiệp tự động hóa đang phát triển mạnh mẽ nhờ sự đầu tư của các doanh nghiệp sản xuất lớn như Samsung, LG, Foxconn, Intel, VinFast. Ngành được ứng dụng rộng rãi trong công nghiệp sản xuất thông minh, robot công nghiệp và trí tuệ nhân tạo, hệ thống giao thông thông minh, tự động hóa trong tòa nhà thông minh, và công nghệ năng lượng tái tạo.
+Thông tin thêm: Sinh viên sẽ được trang bị kiến thức chuyên sâu về kỹ thuật điều khiển và tự động hóa quá trình sản xuất, hệ thống điều khiển thông minh và trí tuệ nhân tạo trong tự động hóa, lập trình PLC, SCADA, DCS cho hệ thống công nghiệp, robot công nghiệp và tự hành, thiết kế hệ thống nhúng và IoT trong điều khiển tự động, công nghệ điện tử, cảm biến và truyền động điện thông minh, mạng truyền thông công nghiệp và bảo mật hệ thống điều khiển.
+
+17. Công nghệ Thực phẩm (7540101)
+Khoa: Viện Công nghệ Sinh học và Công nghệ Thực phẩm
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT488/
+Mô tả: Ngành Công nghệ Thực phẩm đào tạo kỹ sư chất lượng cao, có kiến thức toàn diện về kỹ thuật công nghệ tiên tiến, tay nghề thực tiễn vững vàng, có năng lực tự chủ trong công việc và sáng tạo khởi nghiệp. Học phí thấp, phù hợp với đa số người học, cơ hội giành học bổng tại nước ngoài (Nhật Bản, Hàn Quốc, Israel), thực tập và ứng tuyển vào các doanh nghiệp uy tín với mức lương cạnh tranh.
+Cơ hội việc làm: Sản xuất tại các doanh nghiệp sản xuất cồn, rượu bia, nước giải khát, chế biến sữa, sản phẩm lên men, bánh kẹo, đường, chế phẩm tinh bột; Nghiên cứu, giảng dạy, tư vấn tại các trường cao đẳng, nghiên cứu ứng dụng, tư vấn chuyển giao công nghệ; Kiểm định - tham gia kiểm nghiệm, phân tích chất lượng thực phẩm; Kinh doanh và tư vấn kỹ thuật sản phẩm thực phẩm.
+Thành Tựu: Giới thiệu nhiều cơ hội việc làm cho sinh viên sau khi tốt nghiệp tại các tập đoàn lớn như CP Việt Nam, Bia Việt Á, Masan, Mondelez Kinh Đô, Vinamilk, TH True Milk. Giới thiệu nhiều cơ hội học tập nâng cao trình độ tại nước ngoài với các học bổng toàn phần tại Hàn Quốc, Nhật Bản, Israel. Có hoạt động sinh viên nghiên cứu khoa học và khởi nghiệp phong phú, đạt nhiều giải thưởng cao.
+Thông tin thêm: Hệ thống phòng thí nghiệm với thiết bị hiện đại. Sinh viên tham gia nhiều đợt kiến tập, thực hành trong suốt khóa học, đào tạo khởi nghiệp tại Israel và Nhật Bản, hoạt động trải nghiệm văn hoá và giao lưu quốc tế, hoạt động ngoại khóa đa dạng. Nghiên cứu và sản xuất các sản phẩm như nước mắm cá cơm, đông trùng hạ thảo, giấm táo mèo, chế phẩm probiotic.
+
+18. Kiến trúc (7580101)
+Khoa: Tạo dáng công nghiệp
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT489/
+Mô tả: Ngành Kiến trúc là sự kết hợp giữa nghệ thuật và kỹ thuật, đóng vai trò quan trọng trong việc đưa cái đẹp vào mọi lĩnh vực của đời sống. Ngành này đặc biệt hấp dẫn đối với giới trẻ trong bối cảnh kinh tế, khoa học, kỹ thuật và nghệ thuật phát triển nhanh chóng. Trường Đại học Mở Hà Nội bắt đầu tuyển sinh ngành Kiến trúc từ năm 1995 và đã có 23 khóa sinh viên tốt nghiệp, với tổng số khoảng 1600 kiến trúc sư.
+Cơ hội việc làm: Thiết kế kiến trúc dân dụng, công nghiệp và đô thị, tư vấn thiết kế và giám sát thi công công trình, quản lý dự án xây dựng, nghiên cứu và giảng dạy kiến trúc, kinh doanh và phát triển bất động sản, làm việc tại các cơ quan quản lý nhà nước về xây dựng và quy hoạch đô thị.
+Thành Tựu: Khoa đào tạo về lĩnh vực kiến trúc và mỹ thuật ứng dụng với 30 năm kinh nghiệm, đã có 25 khóa sinh viên tốt nghiệp với hơn 4000 cử nhân thiết kế và kiến trúc sư. Hơn 98% sinh viên có việc làm ngay trong năm đầu tiên sau khi tốt nghiệp và làm đúng chuyên môn được đào tạo. Trường nằm trong top 25 trường có tỷ lệ trên 60% sinh viên tốt nghiệp làm đúng ngành nghề.
+Thông tin thêm: Nhiều cựu sinh viên ngành Kiến trúc hiện đang nắm giữ các vị trí quan trọng trong xã hội như KTS Hoàng Hữu Thi (Chủ tịch HĐQT, Tổng giám đốc Công ty cổ phần Đầu tư Tân Minh), KTS Tô Hữu Dũng (Giám đốc CTCP tư vấn thiết kế 85 Design), cùng nhiều nhà thiết kế nổi tiếng khác. Chương trình đào tạo được thiết kế để bổ trợ kiến thức, thái độ và kỹ năng, giúp sinh viên tốt nghiệp có thể thích ứng nhanh chóng với công việc.
+
+19. Thiết kế Nội thất (7580108)
+Khoa: Tạo dáng công nghiệp
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT490/
+Mô tả: Thiết kế nội thất là ngành học kết hợp giữa nghệ thuật, mỹ thuật và khoa học kỹ thuật. Ngành này tập trung vào việc tạo ra không gian sống, làm việc và thư giãn đẹp mắt, hài hòa và hiệu quả, đáp ứng nhu cầu vật chất và tinh thần của người sử dụng.
+Cơ hội việc làm: Các công ty thiết kế nội thất, kiến trúc và xây dựng; Các công ty sản xuất, xuất khẩu đồ gỗ nội thất; Các công ty tư vấn dịch vụ nội thất và kiến trúc; Các tập đoàn lớn, công ty đa quốc gia về môi trường, quy hoạch kiến trúc; Các tổ chức chính phủ, sở quy hoạch, kiến trúc, tài nguyên môi trường; Các cơ sở đào tạo, trường đại học, cao đẳng, trung cấp chuyên nghiệp; Tự thành lập doanh nghiệp, công ty nội thất, thiết kế.
+Thành Tựu: Nhu cầu về trang trí nội thất ngày càng cao trong xã hội hiện đại. Cơ hội việc làm phong phú và mức lương hấp dẫn so với nhiều ngành nghề khác. Được tự do sáng tạo và tạo ra những tác phẩm nghệ thuật độc đáo. Khoa Tạo dáng công nghiệp có 30 năm kinh nghiệm đào tạo, với hơn 4000 cử nhân thiết kế và kiến trúc sư tốt nghiệp.
+Thông tin thêm: Sinh viên được trang bị kiến thức về phương pháp luận và thực hành thiết kế trang trí nội thất; kỹ năng kết hợp giữa thiết kế, truyền thông, mỹ thuật, thương mại và các kỹ năng mềm; nền tảng vững chắc giữa lý thuyết và thực hành; cơ hội thực tập để mở rộng khả năng thích ứng với môi trường làm việc chuyên nghiệp. Những gương mặt cựu sinh viên thành công bao gồm NTK Đỗ Ngọc Thành (Giám đốc thương hiệu Chic-Land), KTS Hoàng Hữu Thi (Chủ tịch HĐQT Tân Minh), KTS Tô Hữu Dũng (Giám đốc 85 Design), NTK Trung Quang Thành (Tổng giám đốc Tập đoàn Nhà Vàng), NTK Phạm Văn Minh (Giám đốc Kiến tạo vàng), NTK Trần Minh Hương (CTHĐQT Mỹ thuật và xây dựng Minh Hương), NTK La Hằng (Chủ thương hiệu áo dài La Hằng), NTK Hà Duy (Á quân 'Ngôi sao thiết kế 2013', Quán quân Cặp đôi hoàn hảo 2014), và NTK Đỗ Thị Vân Anh (Chủ thương hiệu VanAnhScarlet).
+
+20. Quản trị Dịch vụ Du lịch và Lữ hành (7810103)
+Khoa: Du lịch
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT491/
+Mô tả: Ngành Quản trị Dịch vụ Du lịch và Lữ hành là một ngành 'hot' trong bối cảnh du lịch Việt Nam ngày càng phát triển, đóng góp lớn vào sự phát triển kinh tế - xã hội của đất nước. Du lịch Việt Nam đã có sự tăng trưởng vượt bậc trong những năm gần đây, khẳng định vị thế là một trong những điểm đến hàng đầu thế giới. Năm 2024, Việt Nam được vinh danh là 'Điểm đến Di sản hàng đầu thế giới' lần thứ 6 và nhận được nhiều giải thưởng quan trọng từ Tổ chức Giải thưởng Du lịch Thế giới (WTA).
+Cơ hội việc làm: Sinh viên tốt nghiệp có nhiều cơ hội làm việc trong ngành du lịch với các vị trí như: Hướng dẫn viên du lịch, Điều hành tour, Quản lý khách sạn và resort, Chuyên viên marketing du lịch, Chuyên viên tổ chức sự kiện du lịch, Nhân viên các công ty du lịch và lữ hành. Tỷ lệ có việc làm cao sau tốt nghiệp với nhiều sinh viên được doanh nghiệp du lịch đăng ký nhận làm nhân viên chính thức ngay sau khi tốt nghiệp.
+Thành Tựu: Khoa Du lịch được đánh giá cao về chất lượng đào tạo và là đối tác chiến lược của nhiều cơ quan quản lý Nhà nước và doanh nghiệp trong ngành. Theo Cục Du lịch Quốc gia Việt Nam, năm 2024, Việt Nam đón 17,5 triệu lượt khách quốc tế và 110 triệu lượt khách nội địa, với tổng thu từ khách du lịch đạt khoảng 840 nghìn tỷ đồng. Điểm thi hoặc xét tuyển đầu vào 'khả thi', hướng tới những học sinh có tiềm năng phát triển.
+Thông tin thêm: Chương trình học kết hợp lý thuyết và thực hành, thực tập tại doanh nghiệp, tương tự như mô hình đào tạo ở các nước du lịch phát triển. Sinh viên được tiếp xúc thường xuyên với môi trường thực tế thông qua các hoạt động tham quan, thực hành hướng dẫn tại điểm, thực địa, thực tập từ năm nhất đến khi ra trường. Trường đã xây dựng quan hệ hợp tác với nhiều khu di tích, doanh nghiệp lữ hành lớn tại Hà Nội. Môi trường đào tạo nghiêm túc & thân thiện với triết lý 'Dạy thật - Học thật - Kỷ cương, nề nếp nghiêm'. Học phí phù hợp theo quy định của Nhà nước đối với các trường công lập.
+
+21. Quản trị Khách sạn (7810201)
+Khoa: Du lịch
+Link tìm hiểu thêm: https://tuyensinh.hou.edu.vn/tintucchitiet/BT492/
+Mô tả: Ngành Quản trị Khách sạn đang rất 'hot' do du lịch là ngành kinh tế mũi nhọn của Việt Nam. Du lịch Việt Nam tăng trưởng mạnh mẽ, được vinh danh là 'Điểm đến Di sản hàng đầu thế giới' năm 2024. Năm 2024, Việt Nam đón 17,5 triệu lượt khách quốc tế và 110 triệu lượt khách nội địa, với tổng thu đạt khoảng 840 nghìn tỷ đồng. Thị trường khách sạn đang phục hồi mạnh mẽ, tạo ra 'cơn khát' nhân lực chất lượng cao.
+Cơ hội việc làm: Sinh viên tốt nghiệp có nhiều cơ hội làm việc trong ngành khách sạn với các vị trí như: Quản lý khách sạn và nhà hàng, Chuyên viên kinh doanh và marketing khách sạn, Lễ tân và phục vụ, Nhân viên các bộ phận khác trong khách sạn. Tỷ lệ việc làm cao với nhiều sinh viên được doanh nghiệp đăng ký nhận làm nhân viên chính thức ngay sau khi tốt nghiệp.
+Thành Tựu: Khoa Du lịch được đánh giá cao về chất lượng đào tạo và là đối tác chiến lược của các cơ quan quản lý Nhà nước và doanh nghiệp trong ngành. Điểm thi/xét tuyển 'khả thi', hướng tới học sinh có tiềm năng phát triển, giúp họ trở thành ứng viên giỏi trong mắt nhà tuyển dụng. Môi trường đào tạo nghiêm túc & thân thiện với triết lý 'Dạy thật - Học thật - Kỷ cương, nề nếp nghiêm'.
+Thông tin thêm: Chương trình kết hợp lý thuyết và thực hành, thực tập tại doanh nghiệp, tương tự các nước du lịch phát triển. Sinh viên thực hành tại phòng nghiệp vụ khách sạn tiêu chuẩn 5 sao, tham quan, thực tập từ năm nhất. Trường hợp tác với nhiều khách sạn, resort lớn như Intercontinental Westlake Hà Nội, Sofitel Legend Metropole Hà Nội, Lotte Hà Nội, IHG Phú Quốc, Flamingo Đại Lải, Flamingo Cát Bà để cung cấp nhân lực và hoạt động thực tập. Sinh viên giỏi có thể hoàn thành chương trình 4 năm trong 3 năm học.
+
+=================================================================================
+TÍNH NĂNG WEBSITE
+=================================================================================
+
+NAVIGATION MENU:
+- Trang chủ (Home)
+- Lịch sử (History)
+- Di sản (Heritage)
+- Làng nghề (Villages)
+- Ẩm thực (Cuisine)
+- HOU (Education)
+
+SEARCH FUNCTION:
+- Tìm kiếm toàn trang
+- Bộ lọc theo vùng miền (Bắc - Trung - Nam)
+- Bộ lọc theo danh mục
+
+INTERACTIVE FEATURES:
+- Timeline lịch sử có thể scroll ngang
+- Menu di sản vô hạn với floating cards
+- Form tư vấn tuyển sinh
+- Chatbot hỗ trợ
+- Responsive design cho mobile
+
+ANIMATION EFFECTS:
+- Smooth scrolling
+- Fade-in animations
+- Hover effects
+- Loading animations
+- Preloader
+
+=================================================================================
+TECHNOLOGY STACK
+=================================================================================
+- Frontend: React + TypeScript
+- Styling: Tailwind CSS
+- Routing: React Router
+- Build Tool: Vite
+- UI Components: Radix UI + shadcn/ui
+- Icons: Lucide React
+- Fonts: Playfair Display + Inter
+
+=================================================================================
+KẾT LUẬN
+=================================================================================
+Website "Hou cùng Việt Nam" là một tác phẩm kỹ thuật số tôn vinh di sản văn hóa Việt Nam, kết nối quá khứ với hiện tại, và hướng tới tương lai thông qua giáo dục. Với hơn 50 địa điểm di sản, 16 làng nghề truyền thống, 12 món ăn đặc sắc và 8 chương trình đào tạo của Đại học Mở Hà Nội, website tạo nên một hành trình khám phá toàn diện về Việt Nam.

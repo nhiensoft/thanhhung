@@ -1,105 +1,233 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@500;600;700;800;900&display=swap');
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
-  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
-  --font-serif: 'Playfair Display', ui-serif, Georgia, serif;
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
 
-  --color-background: #f7f5f2;
-  --color-foreground: #213047;
-  --color-card: #ffffff;
-  --color-muted: #f0ece6;
+@layer base {
+  :root {
+    /* Peaceful Vietnam landscape-inspired color palette */
+    --background: 45 40% 98%;
+    --foreground: 220 15% 25%;
 
-  --color-vietnam-red: #f65f53;
-  --color-sunrise-orange: #fb9851;
-  --color-sunrise-yellow: #f9dc86;
-  --color-mountain-blue: #6471b4;
-  --color-mountain-purple: #5c5095;
-  --color-forest-green: #3d8f3d;
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 25%;
 
-  --shadow-soft: 0 20px 44px -26px rgba(54, 61, 73, 0.45);
-  --shadow-floating: 0 30px 70px -40px rgba(100, 113, 180, 0.5);
-  --shadow-glass: 0 18px 35px -22px rgba(33, 48, 71, 0.42);
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 25%;
 
-  --ease-fluid: cubic-bezier(0.25, 1, 0.5, 1);
-}
+    /* Sunrise orange from the landscape */
+    --primary: 25 95% 65%;
+    --primary-foreground: 0 0% 100%;
 
-:root {
-  color-scheme: light;
-}
+    /* Soft misty blue-gray */
+    --secondary: 210 25% 92%;
+    --secondary-foreground: 220 15% 25%;
 
-* {
-  box-sizing: border-box;
-}
+    --muted: 210 20% 88%;
+    --muted-foreground: 220 10% 45%;
 
-html {
-  scroll-behavior: smooth;
-}
+    /* Mountain blue-purple */
+    --accent: 230 35% 55%;
+    --accent-foreground: 0 0% 100%;
 
-body {
-  margin: 0;
-  font-family: var(--font-sans);
-  color: var(--color-foreground);
-  background:
-    radial-gradient(circle at 12% 16%, rgba(251, 152, 81, 0.2), transparent 33%),
-    radial-gradient(circle at 86% 8%, rgba(100, 113, 180, 0.17), transparent 35%),
-    linear-gradient(160deg, #fdfcf8 0%, #f7f5f2 42%, #f2f3f8 100%);
-  min-height: 100vh;
-}
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+    --border: 210 15% 85%;
+    --input: 210 20% 94%;
+    --ring: 25 95% 65%;
 
-img {
-  max-width: 100%;
-  display: block;
-}
+    /* Peaceful landscape colors */
+    --sunrise-orange: 25 95% 65%;
+    --sunrise-yellow: 45 90% 75%;
+    --mountain-blue: 230 35% 55%;
+    --mountain-purple: 250 30% 45%;
+    --mist-white: 0 0% 98%;
+    --forest-green: 120 40% 40%;
+    --tranquil-gray: 220 15% 65%;
+    
+    /* Special philosophy colors */
+    --bright-cyan: 194 100% 53%;
+    --bright-pink: 299 100% 74%;
+    --bright-purple: 263 100% 74%;
+    --bright-green: 102 100% 74%;
 
-.section-shell {
-  max-width: 1200px;
-  margin-inline: auto;
-  padding-inline: clamp(1rem, 2vw, 2.2rem);
-}
+    /* Peaceful gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--sunrise-orange) / 0.85), hsl(var(--mountain-blue) / 0.75));
+    --gradient-card: linear-gradient(145deg, hsl(var(--mist-white)), hsl(var(--background)));
+    --gradient-accent: linear-gradient(90deg, hsl(var(--sunrise-yellow) / 0.2), hsl(var(--mist-white)));
+    --gradient-peaceful: linear-gradient(180deg, hsl(var(--sunrise-orange) / 0.3), hsl(var(--mountain-purple) / 0.2));
 
-.glass-panel {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.32));
-  border: 1px solid rgba(255, 255, 255, 0.45);
-  backdrop-filter: blur(16px) saturate(1.08);
-  -webkit-backdrop-filter: blur(16px) saturate(1.08);
-  box-shadow: var(--shadow-glass);
-}
+    /* Soft shadows */
+    --shadow-heritage: 0 8px 32px hsl(var(--mountain-blue) / 0.15);
+    --shadow-card: 0 4px 20px hsl(var(--foreground) / 0.06);
+    --shadow-temple: 0 12px 40px hsl(var(--tranquil-gray) / 0.2);
+    --shadow-peaceful: 0 6px 24px hsl(var(--mountain-purple) / 0.12);
 
-.gradient-title {
-  background: linear-gradient(110deg, #f65f53 0%, #fb9851 35%, #6471b4 75%, #5c5095 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
+    --radius: 0.75rem;
 
-.grid-auto-fit {
-  display: grid;
-  gap: clamp(1rem, 2vw, 1.4rem);
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr));
-}
+    --sidebar-background: 0 0% 98%;
 
-@media (max-width: 760px) {
-  .section-shell {
-    padding-inline: 0.95rem;
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    /* Hide scrollbar completely */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+
+  body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+  }
+
   html {
-    scroll-behavior: auto;
+    overflow-x: hidden; /* Also hide for html */
   }
+}
 
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
+/* Custom scrollbar styles */
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+/* Animation utilities */
+.animation-delay-200 { animation-delay: 0.2s; }
+.animation-delay-400 { animation-delay: 0.4s; }
+
+/* Line clamp utilities */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Text effects */
+.text-glow-yellow:hover {
+  text-shadow: 
+    2px 2px 4px rgba(0,0,0,0.8), 
+    -1px -1px 0 #000, 
+    1px -1px 0 #000, 
+    -1px 1px 0 #000, 
+    1px 1px 0 #000,
+    0 0 10px hsl(45 90% 75%),
+    0 0 20px hsl(45 90% 75%),
+    0 0 30px hsl(45 90% 75%);
+}
+
+/* Content visibility utilities */
+.visible-item {
+  animation: fadeInUp 0.4s ease-out forwards;
+}
+
+.hidden-item {
+  display: none;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Floating button animations */
+@keyframes gentle-pulse {
+  0%, 100% { 
+    box-shadow: 0 0 0 0 hsl(var(--sunrise-yellow) / 0.4);
+  }
+  50% { 
+    box-shadow: 0 0 0 10px hsl(var(--sunrise-yellow) / 0);
+  }
+}
+
+@keyframes gentle-shake {
+  0%, 100% { transform: translateX(0) translateY(0) rotate(0deg); }
+  10% { transform: translateX(-1px) translateY(-1px) rotate(-1deg); }
+  20% { transform: translateX(1px) translateY(1px) rotate(1deg); }
+  30% { transform: translateX(-1px) translateY(1px) rotate(-1deg); }
+  40% { transform: translateX(1px) translateY(-1px) rotate(1deg); }
+  50% { transform: translateX(0) translateY(0) rotate(0deg); }
+  60% { transform: translateX(0) translateY(0) rotate(0deg); }
+  70% { transform: translateX(0) translateY(0) rotate(0deg); }
+  80% { transform: translateX(0) translateY(0) rotate(0deg); }
+  90% { transform: translateX(0) translateY(0) rotate(0deg); }
 }
