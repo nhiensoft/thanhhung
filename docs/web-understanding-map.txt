@@ -223,8 +223,11 @@ Website có 2 luồng trải nghiệm:
   - Extend màu, font, animation, shadow, gradient.
 
 4.3. Ảnh/asset
-- /home/node/.openclaw/workspace/project/public/lovable-uploads/*
-  - Nguồn ảnh chính cho hero/section/card.
+- /home/node/.openclaw/workspace/project/src/assets/*
+  - Nguồn ảnh chính cho hero/section/card/heritage đã localize từ cả `public/lovable-uploads` và URL ngoài.
+
+- /home/node/.openclaw/workspace/project/src/assets/imageMap.ts
+  - Bộ map helper `assetUrl(...)` để resolve ảnh local ổn định trong runtime Vite.
 
 - /home/node/.openclaw/workspace/project/public/noi-dung-website.txt
   - Nguồn tri thức tĩnh để chatbot tham chiếu.
@@ -317,5 +320,33 @@ Checklist sau mỗi lần chỉnh:
 2) chụp preview
 3) commit + push
 4) update file này
+
+
+============================================================
+9) CẬP NHẬT SAU MIGRATION ASSET (2026-03-26)
+============================================================
+
+Mục tiêu đã thực hiện:
+- Xóa toàn bộ ảnh trong `src/assets/` cũ.
+- Xóa 11 ảnh không dùng trong `public/lovable-uploads/` theo danh sách yêu cầu.
+- Di chuyển ảnh đang dùng từ `public/lovable-uploads/` sang `src/assets/`.
+- Tải toàn bộ ảnh URL ngoài trong `src/data/vietnamHeritage.ts` về local `src/assets/`.
+- Đổi đường dẫn sử dụng ảnh từ `/lovable-uploads/...` và URL ngoài sang local (`assetUrl(...)`).
+
+File đã chỉnh:
+- /home/node/.openclaw/workspace/project/src/assets/imageMap.ts
+- /home/node/.openclaw/workspace/project/src/components/Header.tsx
+- /home/node/.openclaw/workspace/project/src/components/mobile/MobileHeader.tsx
+- /home/node/.openclaw/workspace/project/src/components/sections/EducationTransitionSection.tsx
+- /home/node/.openclaw/workspace/project/src/components/sections/VillagesSection.tsx
+- /home/node/.openclaw/workspace/project/src/components/sections/CuisineSection.tsx
+- /home/node/.openclaw/workspace/project/src/data/vietnamHeritage.ts
+- /home/node/.openclaw/workspace/project/public/lovable-uploads/* (đã dọn)
+- /home/node/.openclaw/workspace/project/src/assets/* (nguồn ảnh mới)
+
+Kết quả kiểm tra:
+- Build: PASS (`npm run build`)
+- Không còn tham chiếu `/lovable-uploads/` trong `src/`.
+- Không còn URL ảnh ngoài trong `src/data/vietnamHeritage.ts`.
 
 End of document.

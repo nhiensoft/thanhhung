@@ -1,3 +1,5 @@
+import { assetUrl } from "@/assets/imageMap";
+
 export interface HeritageSite {
   id: string;
   name: string;
@@ -25,7 +27,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Thiên nhiên UNESCO",
     period: "Hình thành 500 triệu năm trước",
     highlights: ["1.600 đảo đá vôi", "Động Thiên Cung", "Hang Đầu Gỗ", "Làng chài Cửa Vạn"],
-    image: "https://golden-lotus-hotel.s3.ap-southeast-1.amazonaws.com/uploads/2021/04/013d407166ec4fa56eb1e1f8cbe183b9/images1089892_1.jpg",
+    image: assetUrl("images1089892-1-9b92c4a979.jpg"),
     coordinates: [20.9101, 107.1839],
     isUNESCO: true
   },
@@ -39,7 +41,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Thiên nhiên UNESCO",
     period: "Kỷ Ordovic - 450 triệu năm",
     highlights: ["Hang Sơn Trà", "Hang Phong Nha", "Hang Thiên Đường", "Suối Moọc"],
-    image: "https://scov.gov.vn/upload/2005660/20210923/1fa5eec30003121e8bee5fc00e9de09c160327_DS_Phong_Nha_Ke_Bang_8_.jpg",
+    image: assetUrl("1fa5eec30003121e8bee5fc00e9de09c160327-ds-phong-nha-ke-bang-8-57da6dc446.jpg"),
     coordinates: [17.6009, 106.3493],
     isUNESCO: true
   },
@@ -53,7 +55,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Văn hóa UNESCO",
     period: "Thế kỷ 15-19",
     highlights: ["Chùa Cầu Nhật Bản", "Phố đèn lồng", "Nhà cổ Tấn Ký", "Phố Trần Phú"],
-    image: "https://mia.vn/media/uploads/blog-du-lich/pho-co-hoi-an-4-1722851828.jpg",
+    image: assetUrl("pho-co-hoi-an-4-1722851828-a7aeedf1c6.jpg"),
     coordinates: [15.8801, 108.3380],
     isUNESCO: true
   },
@@ -67,7 +69,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Văn hóa UNESCO",
     period: "Thế kỷ 4-14",
     highlights: ["Tháp Chăm cổ", "Điêu khắc Hindu", "Linga-Yoni", "Kiến trúc Champa"],
-    image: "https://ik.imagekit.io/tvlk/blog/2023/09/thanh-dia-my-son-34.jpg?tr=q-70,c-at_max,w-500,h-300,dpr-2",
+    image: assetUrl("thanh-dia-my-son-34-c1460dfa88.jpg"),
     coordinates: [15.7647, 108.1239],
     isUNESCO: true
   },
@@ -81,7 +83,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Văn hóa UNESCO",
     period: "1802-1945",
     highlights: ["Đại Nội", "Lăng Khải Định", "Chùa Thiên Mụ", "Sông Hương"],
-    image: "https://mia.vn/media/uploads/blog-du-lich/quan-the-di-tich-co-do-hue-02-1700926497.jpg",
+    image: assetUrl("quan-the-di-tich-co-do-hue-02-1700926497-870c8eff1a.jpg"),
     coordinates: [16.4637, 107.5909],
     isUNESCO: true
   },
@@ -95,7 +97,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Văn hóa UNESCO",
     period: "1010-1804",
     highlights: ["Cột cờ Hà Nội", "Hậu Lâu", "Kinh Thiên điện", "Lối đi cổ"],
-    image: "https://sovhtt.hanoi.gov.vn/wp-content/uploads/2017/02/1-44-600x387.jpg",
+    image: assetUrl("1-44-600x387-7260a7cd39.jpg"),
     coordinates: [21.0341, 105.8372],
     isUNESCO: true
   },
@@ -109,7 +111,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Văn hóa UNESCO",
     period: "1397-1407",
     highlights: ["Thành quách đá xanh", "Kỹ thuật xây dựng độc đáo", "Cổng thành Nam và Bắc", "Kiến trúc quân sự"],
-    image: "https://statics.vinpearl.com/thanh-nha-ho--2_1629195660.jpg",
+    image: assetUrl("thanh-nha-ho-2-1629195660-8a13cd98f0.jpg"),
     coordinates: [20.1833, 105.7500],
     isUNESCO: true
   },
@@ -124,7 +126,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Di tích lịch sử",
     period: "1070-nay",
     highlights: ["Đền Khổng Tử", "Tiến sĩ bia", "Giếng Thiên Quang", "Khuê Văn Các"],
-    image: "https://ohayo-onsen.com/wp-content/uploads/2024/05/van-mieu-quoc-tu-giam-1.webp",
+    image: assetUrl("van-mieu-quoc-tu-giam-1-025470083b.webp"),
     coordinates: [21.0270, 105.8358],
     isUNESCO: false
   },
@@ -138,7 +140,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Kiến trúc tôn giáo",
     period: "1049",
     highlights: ["Kiến trúc độc đáo", "Hồ sen", "Tượng Phật Quan Âm", "Lịch sử 1000 năm"],
-    image: "https://eggyolk.vn/wp-content/uploads/2024/05/kinh-nghiem-du-lich-chua-mot-cot.jpg",
+    image: assetUrl("kinh-nghiem-du-lich-chua-mot-cot-1e6c8347c1.jpg"),
     coordinates: [21.0363, 105.8342],
     isUNESCO: false
   },
@@ -152,7 +154,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Kiến trúc tôn giáo",
     period: "1863-1880",
     highlights: ["Kiến trúc Gothic", "Đôi chuông tháp", "Tượng Đức Mẹ Maria", "Gạch đỏ Marseille"],
-    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeUS0WP7sZd2gq2jegFUm-27ZTZO2oD8JprgOwRuS_Wlp292sdlEMhG6yP0RnqVrkKvAown7ntkCRVBR1FLQUFHjXJP6hyWFZSsNtwRctXtMt8ZMqe2XA6zOyq63QZgiR9bAveF6g?key=LZeycDAKzXmiztZ3X2dxgqaU",
+    image: assetUrl("ad-4nxeus0wp7szd2gq2jegfum-27ztzo2od8jprgowrus-wlp292sdlemhg6yp0rnqvrkkvaown7ntk-745a3e7679.jpg"),
     coordinates: [10.7798, 106.6990],
     isUNESCO: false
   },
@@ -166,7 +168,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Kiến trúc tôn giáo",
     period: "1927",
     highlights: ["Thánh điện Cao Đài", "Thiên nhãn", "Lễ cúng 4 buổi/ngày", "Kiến trúc Đông-Tây"],
-    image: "https://cdn.nhandan.vn/images/1ef398c4e2fb4bf07980a2ded785b3efd80f48eac5c47f218b4b22c7bcf3b65aaeacc308618cef2729d4c7f1b29ce06593e30150b6a64f9ea707465ba17fc04374b466b0f3fa15e0bc83f1a071867329409f7ab2e598c2a4426f2f96c296e876/z5305475159516-73d4c3ab165e4404e80d4c2dc4e6f769-7720.jpg",
+    image: assetUrl("z5305475159516-73d4c3ab165e4404e80d4c2dc4e6f769-7720-0918953cec.jpg"),
     coordinates: [11.3167, 106.1000],
     isUNESCO: false
   },
@@ -180,7 +182,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Danh lam thắng cảnh",
     period: "Từ thế kỷ 19",
     highlights: ["Cao 986m", "Đền Bà Đen", "Cáp treo", "Rừng nguyên sinh"],
-    image: "/lovable-uploads/nui-ba-den-new.jpg",
+    image: assetUrl("lovable-nui-ba-den-new.jpg"),
     coordinates: [11.4000, 106.0833],
     isUNESCO: false
   },
@@ -194,7 +196,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Di tích lịch sử",
     period: "1948-1975",
     highlights: ["Hầm ngầm 250km", "Bẫy súng", "Phòng họp ngầm", "Bếp núc không khói"],
-    image: "https://lh5.googleusercontent.com/al_bHMp71-2sVR-TOPNXoUIA7McgCxvt0i2vtNZVXs0wFrfXpaB79gVQSHb-j43SvcEQlIMaO6W-1BZBNVHAuDOcxeiDZNdVZrtYXKOARV_dAu3f9iddFzuglRRO81_kqkL_B0IY5kGj5hHWNvD_SRQ",
+    image: assetUrl("al-bhmp71-2svr-topnxouia7mcgcxvt0i2vtnzvxs0wfrfxpab79gvqshb-j43svceqlimao6w-1bzb-a32121b3e2.jpg"),
     coordinates: [11.1394, 106.4946],
     isUNESCO: false
   },
@@ -208,7 +210,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Di tích kiến trúc",
     period: "1914",
     highlights: ["Tháp đồng hồ", "Kiến trúc Pháp", "Chợ truyền thống", "Ẩm thực đường phố"],
-    image: "/lovable-uploads/3dcb2088-32d4-48b7-80b4-5051cf95b4aa.png",
+    image: assetUrl("lovable-3dcb2088-32d4-48b7-80b4-5051cf95b4aa.png"),
     coordinates: [10.7720, 106.6980],
     isUNESCO: false
   },
@@ -222,7 +224,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Danh lam thắng cảnh",
     period: "Hình thành hàng nghìn năm",
     highlights: ["Chợ nổi Cái Răng", "Vườn trái cây", "Làng nghề truyền thống", "Âm thực miền Tây"],
-    image: "/lovable-uploads/mekong-delta-new.jpg",
+    image: assetUrl("lovable-mekong-delta-new.jpg"),
     coordinates: [10.0342, 105.7851],
     isUNESCO: false
   },
@@ -236,7 +238,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Danh lam thắng cảnh",
     period: "700 năm tuổi",
     highlights: ["Ruộng bậc thang", "Fansipan", "Làng người H'Mông", "Thác Bạc"],
-    image: "/lovable-uploads/sapa-terraces-new.jpg",
+    image: assetUrl("lovable-sapa-terraces-new.jpg"),
     coordinates: [22.3380, 103.8438],
     isUNESCO: false
   },
@@ -250,7 +252,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Danh lam thắng cảnh",
     period: "Hàng triệu năm",
     highlights: ["Cao 3.143m", "Cáp treo", "Rừng nguyên sinh", "Thời tiết 4 mùa/ngày"],
-    image: "/lovable-uploads/fansipan-new.jpg",
+    image: assetUrl("lovable-fansipan-new.jpg"),
     coordinates: [22.3021, 103.7751],
     isUNESCO: false
   },
@@ -264,7 +266,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Danh lam thắng cảnh",
     period: "Hình thành 250 triệu năm",
     highlights: ["Ba hang động", "Thuyền tre", "Đền Bích Động", "Đồng Lâm cổ"],
-    image: "/lovable-uploads/tam-coc-new.jpg",
+    image: assetUrl("lovable-tam-coc-new.jpg"),
     coordinates: [20.2356, 105.9198],
     isUNESCO: false
   },
@@ -278,7 +280,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Thiên nhiên UNESCO",
     period: "30.000 năm trước",
     highlights: ["12 hang động", "Đền Trần", "Hóa thạch người cổ", "Du thuyền sinh thái"],
-    image: "https://tourghepdoan.com/wp-content/uploads/2023/01/R-40-1.jpg",
+    image: assetUrl("r-40-1-282f844dce.jpg"),
     coordinates: [20.2583, 105.9000],
     isUNESCO: true
   },
@@ -292,7 +294,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Di tích lịch sử",
     period: "968-1009",
     highlights: ["Đền Đinh Tiên Hoàng", "Đền Lê Đại Hành", "Lăng mộ hoàng gia", "Kinh đô cổ"],
-    image: "https://cozynibi.com/Uploads/images/news/toan-canh-co-do-hoa-lu.jpg",
+    image: assetUrl("toan-canh-co-do-hoa-lu-72456cd889.jpg"),
     coordinates: [20.2547, 105.9342],
     isUNESCO: false
   },
@@ -306,7 +308,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Danh lam thắng cảnh",
     period: "400-500 triệu năm",
     highlights: ["Cao nguyên đá", "Đèo Mã Pì Lèng", "Dinh thự Vua Mèo", "Chợ phiên Đồng Văn"],
-    image: "/lovable-uploads/dong-van-karst-new.jpg",
+    image: assetUrl("lovable-dong-van-karst-new.jpg"),
     coordinates: [23.2833, 105.3667],
     isUNESCO: false
   },
@@ -320,7 +322,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Di tích lịch sử",
     period: "1975",
     highlights: ["Lăng Bác Hồ", "Quảng trường Ba Đình", "Kiến trúc granite", "Nơi đọc Tuyên ngôn độc lập"],
-    image: "https://upload.wikimedia.org/wikipedia/commons/f/fd/L%C4%83ng_B%C3%A1c_-_NKS.jpg",
+    image: assetUrl("l-ng-b-c-nks-3dad47b697.jpg"),
     coordinates: [21.0360, 105.8346],
     isUNESCO: false
   },
@@ -334,7 +336,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Kiến trúc tôn giáo",
     period: "1875-1898",
     highlights: ["Kiến trúc Đông-Tây kết hợp", "Tháp chuông đá", "Nhà thờ bằng gỗ lim", "Di sản kiến trúc"],
-    image: "https://images.bdatrip.com/2024/5/nha-tho-pd.jpg",
+    image: assetUrl("nha-tho-pd-2bc4e3fd7a.jpg"),
     coordinates: [20.1833, 106.0667],
     isUNESCO: false
   },
@@ -348,7 +350,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Kiến trúc tôn giáo",
     period: "Thế kỷ 15 (tái xây)",
     highlights: ["Đền Thượng", "Đền Trung", "Đền Hạ", "Lễ hội Đền Hùng"],
-    image: "https://image.vietgoing.com/destination/large/vietgoing_roc2101114012.webp",
+    image: assetUrl("vietgoing-roc2101114012-90a46fd645.webp"),
     coordinates: [21.3667, 105.2167],
     isUNESCO: false
   },
@@ -362,7 +364,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Kiến trúc tôn giáo",
     period: "1601",
     highlights: ["Tháp Phước Duyên", "Sông Hương", "Chuông đồng cổ", "Kiến trúc Huế"],
-    image: "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/79000/79442-Thien-Mu-Pagoda.jpg",
+    image: assetUrl("79442-thien-mu-pagoda-c4e433e235.jpg"),
     coordinates: [16.4626, 107.5574],
     isUNESCO: false
   },
@@ -376,7 +378,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Kiến trúc tôn giáo",
     period: "2003-2010",
     highlights: ["Tượng Phật khổng lồ", "Chuông đồng lớn nhất VN", "500 tượng A-la-hán", "Kiến trúc hiện đại"],
-    image: "https://owa.bestprice.vn/images/destinations/uploads/chua-bai-dinh-5ff68d8fbfd04.jpg",
+    image: assetUrl("chua-bai-dinh-5ff68d8fbfd04-c457ee75ec.jpg"),
     coordinates: [20.2500, 105.9167],
     isUNESCO: false
   },
@@ -390,7 +392,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Kiến trúc tôn giáo",
     period: "Thế kỷ 16",
     highlights: ["Đền Thánh Trang", "Tượng Trạng Trình", "Lễ hội Phủ Dầy", "Kiến trúc đình chùa"],
-    image: "https://cdn.hoabinhevents.com/hbt/wp-content/uploads/2025/01/13133619/huong-dan-duong-di-den-phu-day-nam-dinh.jpg",
+    image: assetUrl("huong-dan-duong-di-den-phu-day-nam-dinh-afdfef2d1d.jpg"),
     coordinates: [20.2500, 106.5000],
     isUNESCO: false
   },
@@ -404,7 +406,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Danh lam thắng cảnh",
     period: "Tự nhiên",
     highlights: ["Bãi Sao", "Cáp treo Hon Thom", "Chợ đêm Dinh Cậu", "Rừng nguyên sinh"],
-    image: "/lovable-uploads/phu-quoc-new.jpg",
+    image: assetUrl("lovable-phu-quoc-new.jpg"),
     coordinates: [10.2899, 103.9840],
     isUNESCO: false
   },
@@ -418,7 +420,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Danh lam thắng cảnh",
     period: "Thành lập 1893",
     highlights: ["Hồ Xuân Hương", "Dinh Bảo Đại", "Chợ hoa Đà Lạt", "Đồi Robin"],
-    image: "/lovable-uploads/da-lat-new.jpg",
+    image: assetUrl("lovable-da-lat-new.jpg"),
     coordinates: [11.9404, 108.4583],
     isUNESCO: false
   },
@@ -432,7 +434,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Danh lam thắng cảnh",
     period: "Tự nhiên",
     highlights: ["Đèo Hải Vân", "Vịnh Lăng Cô", "Đường ven biển", "Cầu vượt hiện đại"],
-    image: "/lovable-uploads/vinh-lang-co-new.jpg",
+    image: assetUrl("lovable-vinh-lang-co-new.jpg"),
     coordinates: [16.2157, 108.1270],
     isUNESCO: false
   },
@@ -446,7 +448,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Danh lam thắng cảnh",
     period: "2-5 triệu năm tuổi",
     highlights: ["Hang lớn nhất thế giới", "Khối nhũ đá 80m", "Sông ngầm", "Hệ sinh thái hang động"],
-    image: "/lovable-uploads/hang-son-doong-new.jpg",
+    image: assetUrl("lovable-hang-son-doong-new.jpg"),
     coordinates: [17.4553, 106.2840],
     isUNESCO: false
   },
@@ -460,7 +462,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Danh lam thắng cảnh",
     period: "Khu dự trữ từ 2009",
     highlights: ["Rạn san hô", "Khu dự trữ sinh quyển", "Làng chài Bài Hương", "Lặn ngắm san hô"],
-    image: "/lovable-uploads/cu-lao-cham-new.jpg",
+    image: assetUrl("lovable-cu-lao-cham-new.jpg"),
     coordinates: [15.8833, 108.5167],
     isUNESCO: false
   },
@@ -474,7 +476,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Danh lam thắng cảnh",
     period: "Tự nhiên",
     highlights: ["Thác nước lớn nhất VN", "Biên giới Việt-Trung", "Động Ngườm Ngao", "Phong cảnh karst"],
-    image: "/lovable-uploads/thac-ban-gioc-new.jpg",
+    image: assetUrl("lovable-thac-ban-gioc-new.jpg"),
     coordinates: [22.8547, 106.7228],
     isUNESCO: false
   },
@@ -489,7 +491,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Kiến trúc hiện đại",
     period: "2018",
     highlights: ["Biểu diễn đa phương tiện", "Kiến trúc hiện đại", "Công nghệ 3D mapping", "Văn hóa Hội An"],
-    image: "/lovable-uploads/cong-vien-an-tuong-hoi-an-new.jpg",
+    image: assetUrl("lovable-cong-vien-an-tuong-hoi-an-new.jpg"),
     coordinates: [15.8801, 108.3380],
     isUNESCO: false
   },
@@ -503,7 +505,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Kiến trúc hiện đại",
     period: "2006",
     highlights: ["Kiến trúc công nghệ", "Trung tâm IT", "Đại học FPT", "Khu phức hợp hiện đại"],
-    image: "/lovable-uploads/fpt-complex-new.jpg",
+    image: assetUrl("lovable-fpt-complex-new.jpg"),
     coordinates: [21.0133, 105.5242],
     isUNESCO: false
   },
@@ -517,7 +519,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Kiến trúc hiện đại",
     period: "2016",
     highlights: ["Nghệ thuật đương đại", "Cải tạo công nghiệp", "Triển lãm quốc tế", "Không gian sáng tạo"],
-    image: "/lovable-uploads/the-factory-new.jpg",
+    image: assetUrl("lovable-the-factory-new.jpg"),
     coordinates: [10.7892, 106.7434],
     isUNESCO: false
   },
@@ -531,7 +533,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Kiến trúc hiện đại",
     period: "2013",
     highlights: ["Kiến trúc than đá", "Bảo tàng hiện đại", "Lịch sử Quảng Ninh", "Thiết kế độc đáo"],
-    image: "/lovable-uploads/bao-tang-quang-ninh-new.jpg",
+    image: assetUrl("lovable-bao-tang-quang-ninh-new.jpg"),
     coordinates: [20.9537, 107.0773],
     isUNESCO: false
   },
@@ -545,7 +547,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Kiến trúc hiện đại",
     period: "2012",
     highlights: ["Resort 5 sao", "Bán đảo Sơn Trà", "Kiến trúc sinh thái", "Du lịch cao cấp"],
-    image: "/lovable-uploads/intercontinental-danang-new.jpg",
+    image: assetUrl("lovable-intercontinental-danang-new.jpg"),
     coordinates: [16.1047, 108.2634],
     isUNESCO: false
   },
@@ -559,7 +561,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Kiến trúc hiện đại",
     period: "2018",
     highlights: ["Cầu Vàng nổi tiếng", "Đôi bàn tay khổng lồ", "Bà Nà Hills", "Biểu tượng du lịch"],
-    image: "/lovable-uploads/cau-vang-ba-na-new.jpg",
+    image: assetUrl("lovable-cau-vang-ba-na-new.jpg"),
     coordinates: [15.9957, 107.9958],
     isUNESCO: false
   },
@@ -573,7 +575,7 @@ export const vietnamHeritageSites: HeritageSite[] = [
     category: "Kiến trúc hiện đại",
     period: "2018",
     highlights: ["Cao nhất Việt Nam", "81 tầng", "Trung tâm thương mại", "Biểu tượng hiện đại"],
-    image: "/lovable-uploads/landmark-81-new.jpg",
+    image: assetUrl("lovable-landmark-81-new.jpg"),
     coordinates: [10.7951, 106.7197],
     isUNESCO: false
   }

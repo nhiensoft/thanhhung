@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { useIsMobile } from "@/hooks/use-mobile";
+import { assetUrl } from "@/assets/imageMap";
 const VillagesSection = () => {
   const isMobile = useIsMobile();
   const [visibleCount, setVisibleCount] = useState(1);
@@ -174,23 +175,23 @@ const VillagesSection = () => {
     const imageMap: {
       [key: string]: string;
     } = {
-      "Làng gốm Bát Tràng": "/lovable-uploads/121f9ed5-ea83-4363-ae20-c8124715732b.png",
-      "Làng lụa Vạn Phúc": "/lovable-uploads/a5dca47a-235e-4a1a-ad4b-e974f8352fdd.png",
-      "Làng bạc Định Công": "/lovable-uploads/20168891-8544-4347-9a6c-ff8940f10729.png",
-      "Làng tranh Đông Hồ": "/lovable-uploads/4c76118c-dff8-42ad-a4c9-7682ec730f56.png",
-      "Làng đúc đồng Ngũ Xã": "/lovable-uploads/ac7884f4-c03f-4b4a-8613-dbd8acc4ebaf.png",
-      "Làng mây tre Phú Vinh": "/lovable-uploads/b75c35e3-0453-4d94-8618-f2ebc5d406ef.png",
-      "Làng thêu Quất Động": "/lovable-uploads/8714bfd3-f920-4676-b050-9fd94ddfe7a2.png",
-      "Làng bánh phu thê": "/lovable-uploads/c2bbb0f7-3776-4316-8fc1-59d5b2a67f8b.png",
-      "Làng hương Quang Phú Cầu": "/lovable-uploads/692e39ba-e962-46d0-a9d2-cbb777d007ab.png",
-      "Làng nón Chuông": "/lovable-uploads/lang-non-chuong.jpg",
-      "Làng chiếu Cẩm Nê": "/lovable-uploads/lang-chieu-cam-ne.jpg",
-      "Làng gỗ mỹ nghệ Kim Bồng": "/lovable-uploads/lang-go-my-nghe-kim-bong.jpg",
-      "Làng làm giấy dó Đông Cao": "/lovable-uploads/lang-giay-do-dong-cao.jpg",
-      "Làng múa rối nước Đào Thục": "/lovable-uploads/lang-roi-nuoc-dao-thuc.jpg",
-      "Làng nghề dát vàng Kiêu Kỵ": "/lovable-uploads/lang-dat-vang-kieu-ky.jpg"
+      "Làng gốm Bát Tràng": assetUrl("lovable-121f9ed5-ea83-4363-ae20-c8124715732b.png"),
+      "Làng lụa Vạn Phúc": assetUrl("lovable-a5dca47a-235e-4a1a-ad4b-e974f8352fdd.png"),
+      "Làng bạc Định Công": assetUrl("lovable-20168891-8544-4347-9a6c-ff8940f10729.png"),
+      "Làng tranh Đông Hồ": assetUrl("lovable-4c76118c-dff8-42ad-a4c9-7682ec730f56.png"),
+      "Làng đúc đồng Ngũ Xã": assetUrl("lovable-ac7884f4-c03f-4b4a-8613-dbd8acc4ebaf.png"),
+      "Làng mây tre Phú Vinh": assetUrl("lovable-b75c35e3-0453-4d94-8618-f2ebc5d406ef.png"),
+      "Làng thêu Quất Động": assetUrl("lovable-8714bfd3-f920-4676-b050-9fd94ddfe7a2.png"),
+      "Làng bánh phu thê": assetUrl("lovable-c2bbb0f7-3776-4316-8fc1-59d5b2a67f8b.png"),
+      "Làng hương Quang Phú Cầu": assetUrl("lovable-692e39ba-e962-46d0-a9d2-cbb777d007ab.png"),
+      "Làng nón Chuông": assetUrl("lovable-lang-non-chuong.jpg"),
+      "Làng chiếu Cẩm Nê": assetUrl("lovable-lang-chieu-cam-ne.jpg"),
+      "Làng gỗ mỹ nghệ Kim Bồng": assetUrl("lovable-lang-go-my-nghe-kim-bong.jpg"),
+      "Làng làm giấy dó Đông Cao": assetUrl("lovable-lang-giay-do-dong-cao.jpg"),
+      "Làng múa rối nước Đào Thục": assetUrl("lovable-lang-roi-nuoc-dao-thuc.jpg"),
+      "Làng nghề dát vàng Kiêu Kỵ": assetUrl("lovable-lang-dat-vang-kieu-ky.jpg")
     };
-    return imageMap[villageName] || "/lovable-uploads/6d510070-0553-4549-80ca-8ad63127642a.png";
+    return imageMap[villageName] || assetUrl("lovable-6d510070-0553-4549-80ca-8ad63127642a.png");
   };
   const hasImage = (villageName: string) => villagesWithImages.includes(villageName);
   // Update visible count based on mobile state

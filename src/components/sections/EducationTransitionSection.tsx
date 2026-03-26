@@ -1,5 +1,7 @@
 import { GraduationCap, Heart, Lightbulb, Eye, Rocket, DollarSign } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { assetUrl } from "@/assets/imageMap";
+
 const EducationTransitionSection = () => {
   const openPhilosophies = [{
     name: "Mở Cơ hội",
@@ -27,14 +29,17 @@ const EducationTransitionSection = () => {
     icon: GraduationCap,
     color: "sunrise-yellow"
   }];
-  return <section className="py-16 bg-cover bg-center bg-no-repeat relative" style={{ backgroundImage: 'url(/lovable-uploads/9b107960-b9ae-4027-a1a3-06686b7e971e.png)' }}>
+  const bgImage = assetUrl("lovable-9b107960-b9ae-4027-a1a3-06686b7e971e.png");
+  const houLogo = assetUrl("lovable-ee07d4f0-f55d-4f4e-881a-e2e1cf5bb7c6.png");
+
+  return <section className="py-16 bg-cover bg-center bg-no-repeat relative" style={{ backgroundImage: `url(${bgImage})` }}>
       {/* Gradient overlay for smooth transition */}
       <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-transparent to-background/20"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Transition Bridge */}
         <div className="text-center mb-16">
           <div className="inline-block p-4 bg-card/90 backdrop-blur-sm rounded-full shadow-peaceful mb-6">
-            <img src="/lovable-uploads/ee07d4f0-f55d-4f4e-881a-e2e1cf5bb7c6.png" alt="HOU Logo" className="h-12 w-12 object-contain" />
+            <img src={houLogo} alt="HOU Logo" className="h-12 w-12 object-contain" />
           </div>
           <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4 text-destructive-foreground" style={{ textShadow: '-1px -1px 0 rgba(255,255,255,0.3), 1px -1px 0 rgba(255,255,255,0.3), -1px 1px 0 rgba(255,255,255,0.3), 1px 1px 0 rgba(255,255,255,0.3)' }}>
             Tổ Quốc Trong Tim – Khát Vọng Nắm Trong Tay

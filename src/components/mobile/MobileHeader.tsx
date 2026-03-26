@@ -1,4 +1,7 @@
-const heroImage = "/lovable-uploads/260bd0b1-39a9-4e3b-a68e-1e3129863f14.png";
+import { assetUrl } from "@/assets/imageMap";
+
+const heroImage = assetUrl("lovable-260bd0b1-39a9-4e3b-a68e-1e3129863f14.png");
+
 const MobileHeader = () => {
   return <header className="relative min-h-screen flex flex-col">
       {/* Background Image */}
