@@ -8,69 +8,64 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Premium heritage-inspired palette */
-    --background: 40 33% 97%;
-    --foreground: 220 28% 16%;
+    /* Peaceful Vietnam landscape-inspired color palette */
+    --background: 45 40% 98%;
+    --foreground: 220 15% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 28% 18%;
+    --card-foreground: 220 15% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 28% 18%;
+    --popover-foreground: 220 15% 25%;
 
-    /* Primary = imperial red accent */
-    --primary: 357 72% 45%;
+    /* Sunrise orange from the landscape */
+    --primary: 25 95% 65%;
     --primary-foreground: 0 0% 100%;
 
-    /* Warm ivory secondary */
-    --secondary: 40 34% 92%;
-    --secondary-foreground: 220 24% 22%;
+    /* Soft misty blue-gray */
+    --secondary: 210 25% 92%;
+    --secondary-foreground: 220 15% 25%;
 
-    --muted: 38 20% 89%;
-    --muted-foreground: 220 12% 42%;
+    --muted: 210 20% 88%;
+    --muted-foreground: 220 10% 45%;
 
-    /* Indigo accent for scholarly trust */
-    --accent: 222 38% 42%;
+    /* Mountain blue-purple */
+    --accent: 230 35% 55%;
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 79% 55%;
+    --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 36 22% 83%;
-    --input: 40 28% 95%;
-    --ring: 357 72% 45%;
+    --border: 210 15% 85%;
+    --input: 210 20% 94%;
+    --ring: 25 95% 65%;
 
-    /* Brand semantic colors */
-    --sunrise-orange: 18 92% 56%;
-    --sunrise-yellow: 45 95% 66%;
-    --mountain-blue: 222 38% 42%;
-    --mountain-purple: 251 33% 44%;
-    --mist-white: 40 40% 98%;
-    --forest-green: 148 44% 34%;
-    --tranquil-gray: 220 9% 62%;
+    /* Peaceful landscape colors */
+    --sunrise-orange: 25 95% 65%;
+    --sunrise-yellow: 45 90% 75%;
+    --mountain-blue: 230 35% 55%;
+    --mountain-purple: 250 30% 45%;
+    --mist-white: 0 0% 98%;
+    --forest-green: 120 40% 40%;
+    --tranquil-gray: 220 15% 65%;
+    
+    /* Special philosophy colors */
+    --bright-cyan: 194 100% 53%;
+    --bright-pink: 299 100% 74%;
+    --bright-purple: 263 100% 74%;
+    --bright-green: 102 100% 74%;
 
-    --vietnam-red: 357 72% 45%;
-    --vietnam-green: 148 44% 34%;
-    --vietnam-gold: 44 90% 55%;
-    --heritage-cream: 40 35% 93%;
+    /* Peaceful gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--sunrise-orange) / 0.85), hsl(var(--mountain-blue) / 0.75));
+    --gradient-card: linear-gradient(145deg, hsl(var(--mist-white)), hsl(var(--background)));
+    --gradient-accent: linear-gradient(90deg, hsl(var(--sunrise-yellow) / 0.2), hsl(var(--mist-white)));
+    --gradient-peaceful: linear-gradient(180deg, hsl(var(--sunrise-orange) / 0.3), hsl(var(--mountain-purple) / 0.2));
 
-    /* Accent helper palette */
-    --bright-cyan: 194 91% 46%;
-    --bright-pink: 329 86% 66%;
-    --bright-purple: 263 78% 65%;
-    --bright-green: 102 68% 52%;
-
-    /* Premium gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--vietnam-red) / 0.9), hsl(var(--mountain-blue) / 0.82));
-    --gradient-card: linear-gradient(160deg, hsl(var(--mist-white)), hsl(var(--background)) 70%, hsl(var(--heritage-cream) / 0.7));
-    --gradient-accent: linear-gradient(90deg, hsl(var(--vietnam-gold) / 0.24), hsl(var(--mist-white)));
-    --gradient-peaceful: linear-gradient(180deg, hsl(var(--vietnam-red) / 0.08), hsl(var(--mountain-blue) / 0.08), hsl(var(--forest-green) / 0.08));
-
-    /* Elevated soft shadows */
-    --shadow-heritage: 0 18px 50px hsl(var(--mountain-blue) / 0.18);
-    --shadow-card: 0 6px 26px hsl(var(--foreground) / 0.08);
-    --shadow-temple: 0 20px 48px hsl(var(--vietnam-red) / 0.2);
-    --shadow-peaceful: 0 10px 32px hsl(var(--mountain-purple) / 0.16);
+    /* Soft shadows */
+    --shadow-heritage: 0 8px 32px hsl(var(--mountain-blue) / 0.15);
+    --shadow-card: 0 4px 20px hsl(var(--foreground) / 0.06);
+    --shadow-temple: 0 12px 40px hsl(var(--tranquil-gray) / 0.2);
+    --shadow-peaceful: 0 6px 24px hsl(var(--mountain-purple) / 0.12);
 
     --radius: 0.75rem;
 

@@ -131,13 +131,13 @@ const CuisineSection = () => {
   }];
   const getCategoryColor = (category: string) => {
     const colors = {
-      "Món chính": "bg-vietnam-red/12 text-vietnam-red border-vietnam-red/30",
-      "Đặc sản": "bg-vietnam-green/12 text-vietnam-green border-vietnam-green/30",
-      "Điểm tâm": "bg-vietnam-gold/15 text-amber-700 border-vietnam-gold/30",
-      "Đồ uống": "bg-mountain-blue/12 text-mountain-blue border-mountain-blue/25",
-      "Khai vị": "bg-mountain-purple/15 text-mountain-purple border-mountain-purple/30"
+      "Món chính": "bg-vietnam-red/10 text-vietnam-red border-vietnam-red/20",
+      "Đặc sản": "bg-vietnam-green/10 text-vietnam-green border-vietnam-green/20",
+      "Điểm tâm": "bg-vietnam-gold/10 text-orange-700 border-vietnam-gold/20",
+      "Đồ uống": "bg-blue-100 text-blue-700 border-blue-200",
+      "Khai vị": "bg-purple-100 text-purple-700 border-purple-200"
     };
-    return colors[category as keyof typeof colors] || "bg-secondary text-foreground border-border";
+    return colors[category as keyof typeof colors] || "bg-gray-100 text-gray-700 border-gray-200";
   };
   const getDifficultyColor = (difficulty: string) => {
     const colors = {
@@ -156,7 +156,7 @@ const CuisineSection = () => {
   const handleShowMore = () => {
     setVisibleCount(prev => Math.min(prev + (isMobile ? 1 : 3), specialtyDishes.length));
   };
-  return <section className="py-16 bg-gradient-to-b from-background via-heritage-cream/20 to-background">
+  return <section className="py-16 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-playfair font-bold text-foreground mb-4">Ẩm thực Việt Nam</h2>
@@ -166,7 +166,7 @@ const CuisineSection = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
-          {specialtyDishes.map((dish, index) => <Card key={index} className={`group bg-card/95 border-border/60 shadow-card hover:shadow-heritage transition-all duration-300 cursor-pointer rounded-2xl ${index < visibleCount ? 'visible-item' : 'hidden-item'}`}>
+          {specialtyDishes.map((dish, index) => <Card key={index} className={`group bg-card border-heritage-cream shadow-peaceful hover:shadow-heritage transition-all duration-300 cursor-pointer ${index < visibleCount ? 'visible-item' : 'hidden-item'}`}>
               {(dish.name === "Phở Hà Nội" || dish.name === "Bún chả" || dish.name === "Cốm làng Vòng" || dish.name === "Bánh cuốn Thanh Trì" || dish.name === "Cà phê trứng" || dish.name === "Bánh mì Việt Nam" || dish.name === "Bún bò Huế" || dish.name === "Bánh xèo (Nam Bộ)" || dish.name === "Nem rán / Chả giò" || dish.name === "Bánh chưng – Bánh tét" || dish.name === "Gỏi cuốn (miền Nam)" || dish.name === "Cao lầu (Hội An)") && <div className="relative h-48 w-full mb-4 overflow-hidden rounded-t-lg">
                   <img src={dish.name === "Phở Hà Nội" ? assetUrl("lovable-2324b9d0-b512-4736-8da9-b4e9ff0c5e58.png") : dish.name === "Bún chả" ? assetUrl("lovable-6f0249c2-e995-4e56-932a-86e8855722e2.png") : dish.name === "Cốm làng Vòng" ? assetUrl("lovable-03944033-e9af-4695-a7de-0fc7fbe92588.png") : dish.name === "Bánh cuốn Thanh Trì" ? assetUrl("lovable-71240ab8-9e69-4417-ada1-605f9c4252b9.png") : dish.name === "Cà phê trứng" ? assetUrl("lovable-f85948ae-2604-4224-bf5d-7294ddf49cae.png") : dish.name === "Bánh mì Việt Nam" ? assetUrl("lovable-banh-mi-viet-nam-updated.jpg") : dish.name === "Bún bò Huế" ? assetUrl("lovable-bun-bo-hue.jpg") : dish.name === "Bánh xèo (Nam Bộ)" ? assetUrl("lovable-banh-xeo-nam-bo.jpg") : dish.name === "Nem rán / Chả giò" ? assetUrl("lovable-nem-ran-cha-gio.jpg") : dish.name === "Bánh chưng – Bánh tét" ? assetUrl("lovable-banh-chung-banh-tet.jpg") : dish.name === "Gỏi cuốn (miền Nam)" ? assetUrl("lovable-goi-cuon-mien-nam.jpg") : assetUrl("lovable-cao-lau-hoi-an.webp")} alt={dish.name} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
@@ -181,7 +181,7 @@ const CuisineSection = () => {
                     </Badge>
                   </div>
                 </div>
-                <CardTitle className="text-xl font-playfair text-foreground group-hover:text-primary transition-colors duration-200">
+                <CardTitle className="text-xl font-playfair text-foreground group-hover:text-mountain-blue transition-colors duration-200">
                   {dish.name}
                 </CardTitle>
                 <p className="text-sm text-muted-foreground font-inter italic">
@@ -196,7 +196,7 @@ const CuisineSection = () => {
                 
                 <div className="flex items-center justify-between text-sm">
                   <div className="flex items-center space-x-2">
-                    <Clock className="h-4 w-4 text-vietnam-gold" />
+                    <Clock className="h-4 w-4 text-sunrise-yellow" />
                     <span className="text-foreground/80 font-inter">{dish.time}</span>
                   </div>
                   
@@ -204,12 +204,12 @@ const CuisineSection = () => {
                 
                 <div className="space-y-3">
                   <h4 className="text-sm font-inter font-semibold text-foreground flex items-center space-x-1">
-                    <Utensils className="h-4 w-4 text-primary" />
+                    <Utensils className="h-4 w-4 text-mountain-blue" />
                     <span>Đặc điểm:</span>
                   </h4>
                   <ul className="space-y-1">
                     {dish.specialFeatures.map((feature, featureIndex) => <li key={featureIndex} className="flex items-start space-x-2 text-sm">
-                        <div className="w-1.5 h-1.5 bg-vietnam-green rounded-full mt-2 flex-shrink-0"></div>
+                        <div className="w-1.5 h-1.5 bg-forest-green rounded-full mt-2 flex-shrink-0"></div>
                         <span className="text-foreground/80 font-inter">{feature}</span>
                       </li>)}
                   </ul>
@@ -217,21 +217,21 @@ const CuisineSection = () => {
                 
                 <div className="space-y-3">
                   <h4 className="text-sm font-inter font-semibold text-foreground flex items-center space-x-1">
-                    <MapPin className="h-4 w-4 text-primary" />
+                    <MapPin className="h-4 w-4 text-mountain-blue" />
                     <span>Địa điểm nổi tiếng:</span>
                   </h4>
                   <ul className="space-y-1">
                     {dish.famousPlaces.map((place, placeIndex) => <li key={placeIndex} className="flex items-start space-x-2 text-sm">
-                        <div className="w-1.5 h-1.5 bg-vietnam-gold rounded-full mt-2 flex-shrink-0"></div>
+                        <div className="w-1.5 h-1.5 bg-sunrise-yellow rounded-full mt-2 flex-shrink-0"></div>
                         <span className="text-foreground/80 font-inter">{place}</span>
                       </li>)}
                   </ul>
                 </div>
                 
-                <div className="pt-3 border-t border-border/70">
+                <div className="pt-3 border-t border-heritage-cream">
                   <div className="flex items-center justify-between text-sm">
                     <span className="text-muted-foreground font-inter">Khám phá món ăn</span>
-                    <Heart className="h-4 w-4 text-primary group-hover:scale-110 transition-transform duration-200" />
+                    <Heart className="h-4 w-4 text-mountain-blue group-hover:scale-110 transition-transform duration-200" />
                   </div>
                 </div>
               </CardContent>
@@ -242,7 +242,7 @@ const CuisineSection = () => {
           <div className="flex flex-col items-center space-y-4">
             
             
-            {visibleCount < specialtyDishes.length && <Button onClick={handleShowMore} variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors duration-300">
+            {visibleCount < specialtyDishes.length && <Button onClick={handleShowMore} variant="outline" className="border-mountain-blue text-mountain-blue hover:bg-mountain-blue hover:text-primary-foreground transition-colors duration-300">
                 Hiển thị thêm
               </Button>}
           </div>

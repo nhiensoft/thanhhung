@@ -226,7 +226,7 @@ const HOUSection = () => {
     description: "Chúng tôi tin rằng, mỗi thành tựu khoa học, mỗi ý tưởng sáng tạo từ HOU đều là viên gạch xây dựng nên một Việt Nam hiện đại, phồn vinh hơn."
   }];
   const callToActions = ["Hãy cùng HOU chắp cánh ước mơ, biến tình yêu quê hương thành hành động ý nghĩa!", "Khám phá các chương trình đào tạo đa dạng, phù hợp với mọi đam mê và định hướng tương lai của bạn.", "Tham gia cùng chúng tôi để cùng nhau cống hiến, góp phần làm rạng rỡ thêm vẻ đẹp bất tận của Việt Nam!"];
-  return <section className="py-20 bg-gradient-to-br from-vietnam-red/8 via-background to-vietnam-green/8 relative overflow-hidden">
+  return <section className="py-20 bg-gradient-to-br from-vietnam-red/5 via-background to-vietnam-green/5 relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-32 h-32 bg-vietnam-red/20 rounded-full blur-3xl"></div>
@@ -237,13 +237,13 @@ const HOUSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center justify-center p-3 bg-vietnam-red/12 rounded-full mb-6">
+          <div className="inline-flex items-center justify-center p-3 bg-vietnam-red/10 rounded-full mb-6">
             <Heart className="h-8 w-8 text-vietnam-red" />
           </div>
           
-          <h2 className="text-4xl md:text-6xl font-playfair font-bold mb-6 leading-tight text-foreground">
+          <h2 className="text-4xl md:text-6xl font-playfair font-bold mb-6 leading-tight text-teal-600">
             <span className="text-vietnam-red">HOU</span> – Nơi Ươm Mầm{" "}
-            <span className="text-vietnam-green text-vietnam-green">Khát Vọng Việt Nam</span>
+            <span className="text-vietnam-green text-destructive">Khát Vọng Việt Nam</span>
             <br />
             <span className="text-2xl md:text-4xl mt-4 block">
               Cùng Bạn Kiến Tạo Tương Lai Rạng Rỡ! 💖
@@ -262,7 +262,7 @@ const HOUSection = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           {values.map((value, index) => {
           const Icon = value.icon;
-          return <Card key={index} className="group bg-card/90 backdrop-blur-sm border-border/60 shadow-card hover:shadow-heritage transition-all duration-300 animate-fade-in">
+          return <Card key={index} className="group bg-card/90 backdrop-blur-sm border-heritage-cream shadow-peaceful hover:shadow-heritage transition-all duration-300 animate-fade-in">
                 <CardContent className="p-8 text-center">
                   <div className="inline-flex items-center justify-center p-4 bg-mountain-blue/10 rounded-xl mb-6 group-hover:bg-mountain-blue/20 transition-colors duration-300">
                     <Icon className="h-10 w-10 text-mountain-blue" />
@@ -281,7 +281,7 @@ const HOUSection = () => {
         </div>
 
         {/* Call to Action Section */}
-        <div className="bg-gradient-to-r from-vietnam-red/10 via-heritage-cream/60 to-vietnam-green/10 rounded-3xl p-8 md:p-12 mb-12">
+        <div className="bg-gradient-to-r from-vietnam-red/10 via-heritage-cream/50 to-vietnam-green/10 rounded-3xl p-8 md:p-12 mb-12">
           <h3 className="text-3xl md:text-4xl font-playfair font-bold text-center text-foreground mb-8">
             Hãy Cùng Chúng Tôi Viết Tiếp Câu Chuyện Tình Yêu Việt Nam!
           </h3>
@@ -299,12 +299,12 @@ const HOUSection = () => {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="bg-vietnam-red hover:bg-vietnam-red/90 text-primary-foreground border border-muted/30 font-inter font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group">
+            <Button size="lg" className="bg-vietnam-red hover:bg-vietnam-red/90 text-foreground border border-muted/30 font-inter font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group">
               Tìm hiểu thêm về HOU
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
             </Button>
             
-            <Button variant="outline" size="lg" onClick={handleProgramsClick} className="border-vietnam-green text-vietnam-green hover:text-vietnam-red hover:border-vietnam-red hover:bg-background/70 font-inter font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+            <Button variant="outline" size="lg" onClick={handleProgramsClick} className="border-vietnam-green text-vietnam-green hover:text-pink-500 hover:border-vietnam-red hover:bg-transparent font-inter font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
               Xem các ngành đào tạo
             </Button>
             
@@ -313,7 +313,7 @@ const HOUSection = () => {
             size="lg"
             onClick={handleConsultClick}
             data-consult-trigger
-            className="bg-vietnam-gold/20 text-foreground hover:bg-vietnam-gold/30 font-inter font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+            className="bg-sunrise-yellow/20 text-forest-green hover:bg-sunrise-yellow/30 font-inter font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
             
               Đăng ký tư vấn
             </Button>
@@ -443,7 +443,7 @@ const HOUSection = () => {
             </h3>
             
             <div className="max-w-2xl mx-auto">
-              <Card className="bg-card/95 backdrop-blur-sm border-border/60 shadow-card">
+              <Card className="bg-white/95 backdrop-blur-sm border-heritage-cream shadow-peaceful">
                 <CardContent className="p-8">
                   <form onSubmit={handleFormSubmit} className="space-y-6">
                     {/* Full Name */}
@@ -511,7 +511,7 @@ const HOUSection = () => {
         </div>
 
         {/* Contact Information */}
-        <div className="bg-card/90 backdrop-blur-sm rounded-2xl p-8 border border-border/60 shadow-card">
+        <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 border border-heritage-cream shadow-peaceful">
           <h4 className="text-2xl font-playfair font-bold text-center text-foreground mb-8">
             Kết nối với chúng tôi ngay hôm nay!
           </h4>

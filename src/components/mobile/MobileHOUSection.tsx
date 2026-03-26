@@ -62,7 +62,7 @@ const MobileHOUSection = () => {
   ];
 
   return (
-    <section className="py-16 bg-gradient-to-br from-vietnam-red/8 via-background to-vietnam-green/8 relative overflow-hidden">
+    <section className="py-16 bg-gradient-to-br from-vietnam-red/5 via-background to-vietnam-green/5 relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-32 h-32 bg-vietnam-red/20 rounded-full blur-3xl"></div>
@@ -73,7 +73,7 @@ const MobileHOUSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         {/* Header Section */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center justify-center p-3 bg-vietnam-red/12 rounded-full mb-6">
+          <div className="inline-flex items-center justify-center p-3 bg-vietnam-red/10 rounded-full mb-6">
             <Heart className="h-8 w-8 text-vietnam-red" />
           </div>
           
@@ -99,7 +99,7 @@ const MobileHOUSection = () => {
           {values.map((value, index) => {
             const Icon = value.icon;
             return (
-              <Card key={index} className="group bg-card/90 backdrop-blur-sm border-border/60 shadow-card hover:shadow-heritage transition-all duration-300">
+              <Card key={index} className="group bg-card/90 backdrop-blur-sm border-heritage-cream shadow-peaceful hover:shadow-heritage transition-all duration-300">
                 <CardContent className="p-6 text-center">
                   <div className="inline-flex items-center justify-center p-4 bg-mountain-blue/10 rounded-xl mb-4 group-hover:bg-mountain-blue/20 transition-colors duration-300">
                     <Icon className="h-8 w-8 text-mountain-blue" />
@@ -119,7 +119,7 @@ const MobileHOUSection = () => {
         </div>
 
         {/* Call to Action Section */}
-        <div className="bg-gradient-to-r from-vietnam-red/10 via-heritage-cream/60 to-vietnam-green/10 rounded-2xl p-6 md:p-8 mb-8">
+        <div className="bg-gradient-to-r from-vietnam-red/10 via-heritage-cream/50 to-vietnam-green/10 rounded-2xl p-6 md:p-8 mb-8">
           <h3 className="text-2xl md:text-3xl font-playfair font-bold text-center text-foreground mb-6">
             Hãy Cùng Chúng Tôi Viết Tiếp Câu Chuyện Tình Yêu Việt Nam!
           </h3>
@@ -139,7 +139,7 @@ const MobileHOUSection = () => {
           <div className="flex flex-col gap-3 justify-center items-center">
             <Button 
               size="lg" 
-              className="w-full bg-vietnam-red hover:bg-vietnam-red/90 text-primary-foreground border border-muted/30 font-inter font-semibold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group"
+              className="w-full bg-vietnam-red hover:bg-vietnam-red/90 text-foreground border border-muted/30 font-inter font-semibold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group"
             >
               Tìm hiểu thêm về HOU
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
@@ -149,7 +149,7 @@ const MobileHOUSection = () => {
               variant="outline" 
               size="lg" 
               onClick={handleProgramsClick} 
-              className="w-full border-vietnam-green text-vietnam-green hover:text-vietnam-red hover:border-vietnam-red hover:bg-background/70 font-inter font-semibold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+              className="w-full border-vietnam-green text-vietnam-green hover:text-pink-500 hover:border-vietnam-red hover:bg-transparent font-inter font-semibold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
             >
               Xem các ngành đào tạo
             </Button>
@@ -159,7 +159,7 @@ const MobileHOUSection = () => {
               size="lg" 
               onClick={handleConsultClick} 
               data-consult-trigger
-              className="w-full bg-vietnam-gold/20 text-foreground hover:bg-vietnam-gold/30 font-inter font-semibold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+              className="w-full bg-sunrise-yellow/20 text-forest-green hover:bg-sunrise-yellow/30 font-inter font-semibold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
             >
               Đăng ký tư vấn
             </Button>
@@ -185,7 +185,7 @@ const MobileHOUSection = () => {
         </div>
 
         {/* Contact Information */}
-        <div className="bg-card/90 backdrop-blur-sm rounded-2xl p-6 border border-border/60 shadow-card">
+        <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-heritage-cream shadow-peaceful">
           <h4 className="text-xl font-playfair font-bold text-center text-foreground mb-6">
             Kết nối với chúng tôi ngay hôm nay!
           </h4>

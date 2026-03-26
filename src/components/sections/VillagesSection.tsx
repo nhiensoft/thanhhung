@@ -155,18 +155,18 @@ const VillagesSection = () => {
   }];
   const getCategoryColor = (category: string) => {
     const colors = {
-      "Thủ công mỹ nghệ": "bg-vietnam-red/12 text-vietnam-red border-vietnam-red/30",
-      "Dệt may": "bg-vietnam-green/12 text-vietnam-green border-vietnam-green/30",
-      "Kim hoàn": "bg-vietnam-gold/15 text-amber-700 border-vietnam-gold/30",
-      "Hội họa": "bg-mountain-purple/15 text-mountain-purple border-mountain-purple/30",
-      "Kim loại": "bg-tranquil-gray/15 text-slate-700 border-tranquil-gray/30",
-      "Mây tre": "bg-forest-green/15 text-forest-green border-forest-green/30",
-      "Thêu ren": "bg-bright-pink/15 text-rose-700 border-bright-pink/35",
-      "Thực phẩm": "bg-sunrise-orange/15 text-sunrise-orange border-sunrise-orange/30",
-      "Tôn giáo": "bg-mountain-blue/15 text-mountain-blue border-mountain-blue/30",
-      "Giấy": "bg-mountain-blue/12 text-mountain-blue border-mountain-blue/25",
-      "Gỗ mỹ nghệ": "bg-vietnam-gold/15 text-amber-700 border-vietnam-gold/30",
-      "Nghệ thuật biểu diễn": "bg-bright-purple/15 text-violet-700 border-bright-purple/30"
+      "Thủ công mỹ nghệ": "bg-vietnam-red/10 text-vietnam-red border-vietnam-red/20",
+      "Dệt may": "bg-vietnam-green/10 text-vietnam-green border-vietnam-green/20",
+      "Kim hoàn": "bg-yellow-100 text-yellow-700 border-yellow-200",
+      "Hội họa": "bg-purple-100 text-purple-700 border-purple-200",
+      "Kim loại": "bg-gray-100 text-gray-700 border-gray-200",
+      "Mây tre": "bg-green-100 text-green-700 border-green-200",
+      "Thêu ren": "bg-pink-100 text-pink-700 border-pink-200",
+      "Thực phẩm": "bg-orange-100 text-orange-700 border-orange-200",
+      "Tôn giáo": "bg-indigo-100 text-indigo-700 border-indigo-200",
+      "Giấy": "bg-blue-100 text-blue-700 border-blue-200",
+      "Gỗ mỹ nghệ": "bg-amber-100 text-amber-700 border-amber-200",
+      "Nghệ thuật biểu diễn": "bg-violet-100 text-violet-700 border-violet-200"
     };
     return colors[category as keyof typeof colors] || "bg-gray-100 text-gray-700 border-gray-200";
   };
@@ -202,7 +202,7 @@ const VillagesSection = () => {
   const handleShowMore = () => {
     setVisibleCount(prev => Math.min(prev + (isMobile ? 1 : 4), traditionalVillages.length));
   };
-  return <section className="py-16 bg-gradient-to-b from-heritage-cream/40 via-background to-background">
+  return <section className="py-16 bg-heritage-cream/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-playfair font-bold text-foreground mb-4">
@@ -214,7 +214,7 @@ const VillagesSection = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {traditionalVillages.map((village, index) => <Card key={index} className={`group bg-card/95 border-border/60 shadow-card hover:shadow-heritage transition-all duration-300 cursor-pointer overflow-hidden rounded-2xl ${index < visibleCount ? 'visible-item' : 'hidden-item'}`}>
+          {traditionalVillages.map((village, index) => <Card key={index} className={`group bg-white border-heritage-cream shadow-peaceful hover:shadow-heritage transition-all duration-300 cursor-pointer overflow-hidden ${index < visibleCount ? 'visible-item' : 'hidden-item'}`}>
               {hasImage(village.name) && <div className="relative h-48 w-full overflow-hidden">
                   <img src={getVillageImage(village.name)} alt={village.name} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
@@ -227,17 +227,17 @@ const VillagesSection = () => {
                     {village.category}
                   </Badge>
                 </div>
-                <CardTitle className="text-lg font-playfair text-foreground group-hover:text-primary transition-colors duration-200 leading-tight">
+                <CardTitle className="text-lg font-playfair text-foreground group-hover:text-mountain-blue transition-colors duration-200 leading-tight">
                   {village.name}
                 </CardTitle>
-                <div className="text-vietnam-green font-inter font-medium text-sm">
+                <div className="text-forest-green font-inter font-medium text-sm">
                   {village.product}
                 </div>
               </CardHeader>
               
               <CardContent className="space-y-3">
                 <div className="flex items-start space-x-2 text-sm">
-                  <MapPin className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
+                  <MapPin className="h-4 w-4 text-mountain-blue mt-0.5 flex-shrink-0" />
                   <span className="text-foreground/80 font-inter">{village.location}</span>
                 </div>
                 
@@ -246,27 +246,27 @@ const VillagesSection = () => {
                 </p>
                 
                 <div className="flex items-center space-x-2 text-sm">
-                  <Users className="h-4 w-4 text-vietnam-gold" />
+                  <Users className="h-4 w-4 text-sunrise-yellow" />
                   <span className="text-foreground/80 font-inter font-medium">{village.history}</span>
                 </div>
                 
                 <div className="space-y-2">
                   <h4 className="text-sm font-inter font-semibold text-foreground flex items-center space-x-1">
-                    <Star className="h-4 w-4 text-vietnam-gold" />
+                    <Star className="h-4 w-4 text-sunrise-yellow" />
                     <span>Sản phẩm nổi bật:</span>
                   </h4>
                   <ul className="space-y-1">
                     {village.features.slice(0, 3).map((feature, featureIndex) => <li key={featureIndex} className="flex items-start space-x-2 text-xs">
-                        <div className="w-1 h-1 bg-vietnam-green rounded-full mt-1.5 flex-shrink-0"></div>
+                        <div className="w-1 h-1 bg-forest-green rounded-full mt-1.5 flex-shrink-0"></div>
                         <span className="text-foreground/70 font-inter">{feature}</span>
                       </li>)}
                   </ul>
                 </div>
                 
-                <div className="pt-2 border-t border-border/70">
+                <div className="pt-2 border-t border-heritage-cream">
                   <div className="flex items-center justify-between text-xs">
                     <span className="text-muted-foreground font-inter">Tham quan làng nghề</span>
-                    <Hammer className="h-4 w-4 text-primary group-hover:scale-110 transition-transform duration-200" />
+                    <Hammer className="h-4 w-4 text-mountain-blue group-hover:scale-110 transition-transform duration-200" />
                   </div>
                 </div>
               </CardContent>
@@ -277,7 +277,7 @@ const VillagesSection = () => {
           <div className="flex flex-col items-center space-y-4">
             
             
-            {visibleCount < traditionalVillages.length && <Button onClick={handleShowMore} variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors duration-300">
+            {visibleCount < traditionalVillages.length && <Button onClick={handleShowMore} variant="outline" className="border-mountain-blue text-mountain-blue hover:bg-mountain-blue hover:text-white transition-colors duration-300">
                 Hiển thị thêm
               </Button>}
           </div>

@@ -60,10 +60,6 @@ export default {
 				'mist-white': 'hsl(var(--mist-white))',
 				'forest-green': 'hsl(var(--forest-green))',
 				'tranquil-gray': 'hsl(var(--tranquil-gray))',
-				'vietnam-red': 'hsl(var(--vietnam-red))',
-				'vietnam-green': 'hsl(var(--vietnam-green))',
-				'vietnam-gold': 'hsl(var(--vietnam-gold))',
-				'heritage-cream': 'hsl(var(--heritage-cream))',
 				// Special philosophy colors
 				'bright-cyan': 'hsl(var(--bright-cyan))',
 				'bright-pink': 'hsl(var(--bright-pink))',
